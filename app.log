@@ -1,0 +1,1565 @@
+2023-10-19 14:02:40,472 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 14:02:40,472 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 14:02:40,474 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 14:02:40,758 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 14:02:40,762 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:13:47,977 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Vineela\\PycharmProjects\\Server\\main.py', reloading
+2023-10-19 15:13:48,118 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:13:48,844 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 15:13:48,854 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:13:50,880 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:13:50,880 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:13:50,881 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:13:51,251 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 15:13:51,257 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:20:41,119 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 90
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:20:41,120 - root - INFO - Request Method: POST
+2023-10-19 15:20:41,120 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-19 15:20:41,121 - root - INFO - Request Data: b'{"username":"","pass":"Hello","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:20:41,123 - root - INFO - username fetched from data: 
+2023-10-19 15:20:41,123 - root - INFO - password fetched from data: None
+2023-10-19 15:20:41,126 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:20:41] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-19 15:20:45,070 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 90
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:20:45,071 - root - INFO - Request Method: POST
+2023-10-19 15:20:45,071 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-19 15:20:45,071 - root - INFO - Request Data: b'{"username":"","pass":"Hello","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:20:45,071 - root - INFO - username fetched from data: 
+2023-10-19 15:20:45,072 - root - INFO - password fetched from data: None
+2023-10-19 15:20:45,073 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:20:45] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-19 15:21:12,027 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 90
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:21:12,027 - root - INFO - Request Method: POST
+2023-10-19 15:21:12,027 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:21:12,027 - root - INFO - Request Data: b'{"username":"","pass":"Hello","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:21:12,032 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:21:12] "[31m[1mPOST /signup HTTP/1.1[0m" 405 -
+2023-10-19 15:21:14,618 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 90
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:21:14,619 - root - INFO - Request Method: POST
+2023-10-19 15:21:14,619 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:21:14,619 - root - INFO - Request Data: b'{"username":"","pass":"Hello","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:21:14,620 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:21:14] "[31m[1mPOST /signup HTTP/1.1[0m" 405 -
+2023-10-19 15:21:55,574 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:21:55,574 - root - INFO - Request Method: POST
+2023-10-19 15:21:55,574 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:21:55,574 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:21:55,576 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:21:55] "[31m[1mPOST /signup HTTP/1.1[0m" 405 -
+2023-10-19 15:22:55,754 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:22:55,754 - root - INFO - Request Method: POST
+2023-10-19 15:22:55,754 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:22:55,754 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:22:55,755 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:22:55] "[31m[1mPOST /signup HTTP/1.1[0m" 405 -
+2023-10-19 15:23:43,530 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Vineela\\PycharmProjects\\Server\\main.py', reloading
+2023-10-19 15:23:43,566 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:23:44,158 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 15:23:44,165 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:23:53,076 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:23:53,076 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:23:53,117 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:23:53,476 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 15:23:53,482 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:23:58,767 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:23:58,767 - root - INFO - Request Method: POST
+2023-10-19 15:23:58,768 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:23:58,768 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:23:58,768 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:23:58] "[31m[1mPOST /signup HTTP/1.1[0m" 405 -
+2023-10-19 15:24:01,733 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:24:01,735 - root - INFO - Request Method: POST
+2023-10-19 15:24:01,735 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:24:01,735 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:24:01,736 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:24:01] "[31m[1mPOST /signup HTTP/1.1[0m" 405 -
+2023-10-19 15:25:32,531 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Vineela\\PycharmProjects\\Server\\main.py', reloading
+2023-10-19 15:25:32,566 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:25:33,103 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 15:25:33,106 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:25:43,471 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:25:43,471 - root - INFO - Request Method: POST
+2023-10-19 15:25:43,471 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:25:43,471 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:25:43,472 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:25:43] "[31m[1mPOST /signup HTTP/1.1[0m" 405 -
+2023-10-19 15:26:45,416 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Vineela\\PycharmProjects\\Server\\main.py', reloading
+2023-10-19 15:26:45,446 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:26:45,733 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 15:26:45,736 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:27:37,479 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:27:37,479 - root - INFO - Request Method: POST
+2023-10-19 15:27:37,480 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:27:37,480 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:27:37,481 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:27:37] "[31m[1mPOST /signup HTTP/1.1[0m" 405 -
+2023-10-19 15:28:36,760 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Vineela\\PycharmProjects\\Server\\main.py', reloading
+2023-10-19 15:28:36,793 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:28:37,163 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 15:28:37,166 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:28:41,028 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:28:41,028 - root - INFO - Request Method: POST
+2023-10-19 15:28:41,029 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:28:41,029 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:28:41,029 - root - INFO - signup : signup
+2023-10-19 15:28:41,031 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:28:41] "POST /signup HTTP/1.1" 200 -
+2023-10-19 15:28:53,166 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:28:53,166 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:28:53,166 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:29:14,597 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:29:14,597 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:29:14,597 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:29:31,211 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:29:31,212 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:29:31,213 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:29:31,578 - werkzeug - WARNING -  * Debugger is active!
+2023-10-19 15:29:31,581 - werkzeug - INFO -  * Debugger PIN: 554-903-810
+2023-10-19 15:29:47,079 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:29:47,081 - root - INFO - Request Method: POST
+2023-10-19 15:29:47,081 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:29:47,081 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:29:47,081 - root - INFO - signup : signup
+2023-10-19 15:29:47,082 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:29:47] "POST /signup HTTP/1.1" 200 -
+2023-10-19 15:30:06,839 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:30:06,839 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:30:06,839 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:30:21,795 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:30:21,795 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:30:21,796 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:34:49,797 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:34:49,797 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:34:49,797 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:35:36,853 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:35:36,853 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:35:36,857 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:36:24,154 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:36:24,154 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:36:24,154 - werkzeug - INFO -  * Restarting with stat
+2023-10-19 15:38:28,421 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:38:28,421 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:38:42,406 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:38:42,406 - root - INFO - Request Method: POST
+2023-10-19 15:38:42,406 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:38:42,406 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:38:42,406 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:38:42] "POST /signup HTTP/1.1" 200 -
+2023-10-19 15:38:45,345 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:38:45,345 - root - INFO - Request Method: POST
+2023-10-19 15:38:45,345 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:38:45,345 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:38:45,345 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:38:45] "POST /signup HTTP/1.1" 200 -
+2023-10-19 15:39:28,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-19 15:39:28,228 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 15:39:30,789 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:39:30,789 - root - INFO - Request Method: POST
+2023-10-19 15:39:30,790 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:39:30,790 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:39:33,421 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 85
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-19 15:39:33,421 - root - INFO - Request Method: POST
+2023-10-19 15:39:33,421 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-19 15:39:33,421 - root - INFO - Request Data: b'{"username":"","pass":"","firstName":"","lastName":"","email":"","organization":null}'
+2023-10-19 15:39:53,608 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:39:53] "POST /signup HTTP/1.1" 200 -
+2023-10-19 15:39:53,608 - werkzeug - INFO - 192.168.0.218 - - [19/Oct/2023 15:39:53] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:07:47,953 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 01:07:47,954 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 01:08:41,102 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 100
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:08:41,103 - root - INFO - Request Method: POST
+2023-10-20 01:08:41,103 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:08:41,103 - root - INFO - Request Data: b'{"username":"Hello","pass":"Hello","firstName":"","lastName":"","email":"Hello","organization":null}'
+2023-10-20 01:08:41,103 - root - INFO - username in signup : Hello
+2023-10-20 01:08:41,104 - root - INFO - password fetched from data: Hello
+2023-10-20 01:08:41,104 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:08:41] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:11:42,116 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 100
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:11:42,116 - root - INFO - Request Method: POST
+2023-10-20 01:11:42,116 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:11:42,116 - root - INFO - Request Data: b'{"username":"Hello","pass":"Hello","firstName":"","lastName":"","email":"Hello","organization":null}'
+2023-10-20 01:11:42,116 - root - INFO - username in signup : Hello
+2023-10-20 01:11:42,116 - root - INFO - password fetched from data: Hello
+2023-10-20 01:11:42,117 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:11:42] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:22:20,504 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 102
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:22:20,504 - root - INFO - Request Method: POST
+2023-10-20 01:22:20,519 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:22:20,520 - root - INFO - Request Data: b'{"username":"Anvesh","pass":"Hello","firstName":"","lastName":"","email":"Anvesh","organization":null}'
+2023-10-20 01:22:20,520 - root - INFO - username in signup : Anvesh
+2023-10-20 01:22:20,520 - root - INFO - password fetched from data: Hello
+2023-10-20 01:22:20,520 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:22:20] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:23:29,687 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 01:23:29,687 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 01:23:30,105 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 102
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:23:30,105 - root - INFO - Request Method: POST
+2023-10-20 01:23:30,105 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:23:30,105 - root - INFO - Request Data: b'{"username":"Anvesh","pass":"Hello","firstName":"","lastName":"","email":"Anvesh","organization":null}'
+2023-10-20 01:24:44,971 - root - INFO - username in signup : Anvesh
+2023-10-20 01:24:45,710 - root - INFO - password fetched from data: Hello
+2023-10-20 01:24:49,773 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:24:49] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:25:44,596 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 01:25:44,596 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 01:25:46,636 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 102
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:25:46,636 - root - INFO - Request Method: POST
+2023-10-20 01:25:46,637 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:25:46,637 - root - INFO - Request Data: b'{"username":"Anvesh","pass":"Hello","firstName":"","lastName":"","email":"Anvesh","organization":null}'
+2023-10-20 01:25:46,637 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:25:46,656 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:25:46] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:25:48,130 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 102
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:25:48,130 - root - INFO - Request Method: POST
+2023-10-20 01:25:48,130 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:25:48,130 - root - INFO - Request Data: b'{"username":"Anvesh","pass":"Hello","firstName":"","lastName":"","email":"Anvesh","organization":null}'
+2023-10-20 01:25:48,131 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:25:48,132 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:25:48] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:25:50,245 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 102
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:25:50,245 - root - INFO - Request Method: POST
+2023-10-20 01:25:50,245 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:25:50,247 - root - INFO - Request Data: b'{"username":"Anvesh","pass":"Hello","firstName":"","lastName":"","email":"Anvesh","organization":null}'
+2023-10-20 01:25:50,247 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:25:50,249 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:25:50] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:26:17,953 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 98
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:26:17,953 - root - INFO - Request Method: POST
+2023-10-20 01:26:17,953 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:26:17,953 - root - INFO - Request Data: b'{"username":"Dgfd","pass":"Gthyh","firstName":"","lastName":"","email":"Dgfd","organization":null}'
+2023-10-20 01:26:17,954 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:26:17,954 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:26:17] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:26:22,972 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 98
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:26:22,973 - root - INFO - Request Method: POST
+2023-10-20 01:26:22,973 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:26:22,973 - root - INFO - Request Data: b'{"username":"Dgfd","pass":"Gthyh","firstName":"","lastName":"","email":"Dgfd","organization":null}'
+2023-10-20 01:26:22,974 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:26:22,975 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:26:22] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:26:42,124 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 98
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:26:42,124 - root - INFO - Request Method: POST
+2023-10-20 01:26:42,124 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:26:42,124 - root - INFO - Request Data: b'{"username":"Dgfd","pass":"Gthyh","firstName":"","lastName":"","email":"Dgfd","organization":null}'
+2023-10-20 01:26:42,124 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:26:42,125 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:26:42] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:27:19,203 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 99
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:27:19,203 - root - INFO - Request Method: POST
+2023-10-20 01:27:19,203 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:27:19,203 - root - INFO - Request Data: b'{"username":"Heusb","pass":"Gali","firstName":"","lastName":"","email":"Heusb","organization":null}'
+2023-10-20 01:27:19,205 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:27:19,205 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:27:19] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:27:59,700 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 01:27:59,700 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 01:28:05,528 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 99
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:28:05,528 - root - INFO - Request Method: POST
+2023-10-20 01:28:05,528 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:28:05,528 - root - INFO - Request Data: b'{"username":"Heusb","pass":"Gali","firstName":"","lastName":"","email":"Heusb","organization":null}'
+2023-10-20 01:29:07,339 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:29:07,339 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:29:07] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:29:11,620 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 99
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:29:11,628 - root - INFO - Request Method: POST
+2023-10-20 01:29:11,628 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:29:11,628 - root - INFO - Request Data: b'{"username":"Heusb","pass":"Gali","firstName":"","lastName":"","email":"Heusb","organization":null}'
+2023-10-20 01:29:46,981 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 64, in signup
+    handlejsonfile.add_user(username,password)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 31, in add_user
+    write_data(data)
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 22, in write_data
+    with open(JSON_FILE_PATH, 'w') as json_file:
+PermissionError: [Errno 13] Permission denied: '/user_data.json'
+2023-10-20 01:29:46,983 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:29:46] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 01:33:34,265 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 01:33:34,265 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 01:33:51,589 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 100
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:33:51,589 - root - INFO - Request Method: POST
+2023-10-20 01:33:51,589 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:33:51,590 - root - INFO - Request Data: b'{"username":"User1","pass":"Pass1","firstName":"","lastName":"","email":"User1","organization":null}'
+2023-10-20 01:33:51,590 - root - INFO - username in signup : User1
+2023-10-20 01:33:51,590 - root - INFO - password fetched from data: Pass1
+2023-10-20 01:33:51,592 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:33:51] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:34:26,094 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 100
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:34:26,094 - root - INFO - Request Method: POST
+2023-10-20 01:34:26,094 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:34:26,094 - root - INFO - Request Data: b'{"username":"User2","pass":"Pass2","firstName":"","lastName":"","email":"User2","organization":null}'
+2023-10-20 01:34:26,094 - root - INFO - username in signup : User2
+2023-10-20 01:34:26,094 - root - INFO - password fetched from data: Pass2
+2023-10-20 01:34:26,097 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:34:26] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:36:33,385 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 39
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:36:33,386 - root - INFO - Request Method: POST
+2023-10-20 01:36:33,386 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 01:36:33,386 - root - INFO - Request Data: b'{"username":"User1","password":"Pass1"}'
+2023-10-20 01:36:33,386 - root - INFO - username fetched from data: User1
+2023-10-20 01:36:33,386 - root - INFO - password fetched from data: Pass1
+2023-10-20 01:36:33,387 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:36:33] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-20 01:37:17,711 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 39
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:37:17,711 - root - INFO - Request Method: POST
+2023-10-20 01:37:17,711 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 01:37:17,711 - root - INFO - Request Data: b'{"username":"User1","password":"Pass1"}'
+2023-10-20 01:37:17,711 - root - INFO - username fetched from data: User1
+2023-10-20 01:37:17,711 - root - INFO - password fetched from data: Pass1
+2023-10-20 01:37:17,711 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:37:17] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-20 01:37:41,993 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 39
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:37:41,993 - root - INFO - Request Method: POST
+2023-10-20 01:37:41,993 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 01:37:41,993 - root - INFO - Request Data: b'{"username":"User1","password":"Pass1"}'
+2023-10-20 01:37:41,993 - root - INFO - username fetched from data: User1
+2023-10-20 01:37:41,993 - root - INFO - password fetched from data: Pass1
+2023-10-20 01:37:41,993 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:37:41] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-20 01:37:58,468 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 01:37:58,468 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 01:38:01,779 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 39
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:38:01,779 - root - INFO - Request Method: POST
+2023-10-20 01:38:01,779 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 01:38:01,779 - root - INFO - Request Data: b'{"username":"User1","password":"Pass1"}'
+2023-10-20 01:39:00,199 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:39:00] "POST /login HTTP/1.1" 200 -
+2023-10-20 01:39:58,193 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 39
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:39:58,198 - root - INFO - Request Method: POST
+2023-10-20 01:39:58,198 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 01:39:58,198 - root - INFO - Request Data: b'{"username":"User2","password":"Pass2"}'
+2023-10-20 01:40:01,672 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:40:01] "POST /login HTTP/1.1" 200 -
+2023-10-20 01:40:10,268 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 39
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:40:10,268 - root - INFO - Request Method: POST
+2023-10-20 01:40:10,268 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 01:40:10,268 - root - INFO - Request Data: b'{"username":"User3","password":"Pass2"}'
+2023-10-20 01:40:13,903 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:40:13] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-20 01:40:27,546 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 01:40:27,546 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 01:40:31,444 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 39
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:40:31,444 - root - INFO - Request Method: POST
+2023-10-20 01:40:31,446 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 01:40:31,446 - root - INFO - Request Data: b'{"username":"User3","password":"Pass2"}'
+2023-10-20 01:40:31,447 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:40:31] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-20 01:40:58,649 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 100
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:40:58,649 - root - INFO - Request Method: POST
+2023-10-20 01:40:58,649 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:40:58,650 - root - INFO - Request Data: b'{"username":"User1","pass":"Pass1","firstName":"","lastName":"","email":"User1","organization":null}'
+2023-10-20 01:40:58,650 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:40:58] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:42:32,802 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 100
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:42:32,802 - root - INFO - Request Method: POST
+2023-10-20 01:42:32,802 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:42:32,802 - root - INFO - Request Data: b'{"username":"User1","pass":"Pass1","firstName":"","lastName":"","email":"User1","organization":null}'
+2023-10-20 01:42:32,802 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:42:32] "POST /signup HTTP/1.1" 200 -
+2023-10-20 01:45:07,236 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 100
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 01:45:07,236 - root - INFO - Request Method: POST
+2023-10-20 01:45:07,237 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 01:45:07,237 - root - INFO - Request Data: b'{"username":"User1","pass":"Pass1","firstName":"","lastName":"","email":"User1","organization":null}'
+2023-10-20 01:45:07,238 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 01:45:07] "POST /signup HTTP/1.1" 200 -
+2023-10-20 09:02:58,035 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 09:02:58,035 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 09:05:16,218 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 150
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 09:05:16,218 - root - INFO - Request Method: POST
+2023-10-20 09:05:16,219 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 09:05:16,220 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"Vinny","firstName":"","lastName":"","email":"kanamarlapudi.usedu1@gmail.com","organization":null}'
+2023-10-20 09:05:16,223 - root - INFO - username in signup : kanamarlapudi.usedu1@gmail.com
+2023-10-20 09:05:16,224 - root - INFO - password fetched from data: Vinny
+2023-10-20 09:05:16,226 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 09:05:16] "POST /signup HTTP/1.1" 200 -
+2023-10-20 09:22:21,808 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 09:22:21,808 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 09:25:39,842 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 09:25:39,842 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 09:42:10,453 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 09:42:10,453 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 09:42:43,586 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 09:42:43,586 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 09:43:54,415 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 09:43:54,415 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 09:50:46,961 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 09:50:46,961 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 09:58:26,847 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 09:58:26,848 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 09:58:31,641 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 161
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 09:58:31,641 - root - INFO - Request Method: POST
+2023-10-20 09:58:31,641 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 09:58:31,642 - root - INFO - Request Data: b'{"username":"Abc@gmail.com","pass":"Haopqb","firstName":"Hhh","lastName":"","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 09:58:31,644 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 63, in signup
+    if handlejsonfile.check_user(username,password):
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 40, in check_user
+    data = read_data()
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 13, in read_data
+    data = json.load(json_file)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-10-20 09:58:31,686 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 09:58:31] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 09:58:34,680 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 161
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 09:58:34,680 - root - INFO - Request Method: POST
+2023-10-20 09:58:34,680 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 09:58:34,680 - root - INFO - Request Data: b'{"username":"Abc@gmail.com","pass":"Haopqb","firstName":"Hhh","lastName":"","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 09:58:34,681 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 63, in signup
+    if handlejsonfile.check_user(username,password):
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 40, in check_user
+    data = read_data()
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 13, in read_data
+    data = json.load(json_file)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-10-20 09:58:34,683 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 09:58:34] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 09:59:18,537 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 170
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 09:59:18,538 - root - INFO - Request Method: POST
+2023-10-20 09:59:18,538 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 09:59:18,538 - root - INFO - Request Data: b'{"username":"Chjkl@gmail.com","pass":"Fhiolv","firstName":"Dgui","lastName":"Fhjjkm","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 09:59:18,539 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 63, in signup
+    if handlejsonfile.check_user(username,password):
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 40, in check_user
+    data = read_data()
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 13, in read_data
+    data = json.load(json_file)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-10-20 09:59:18,540 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 09:59:18] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 10:06:35,917 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 10:06:35,917 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 10:08:07,278 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 158
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:08:07,278 - root - INFO - Request Method: POST
+2023-10-20 10:08:07,278 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:08:07,278 - root - INFO - Request Data: b'{"username":"Abc@gmail","pass":"Abc","firstName":"Anvesh","lastName":"V","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 10:09:17,155 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 63, in signup
+    if handlejsonfile.check_user(username,password):
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 40, in check_user
+    data = read_data()
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 13, in read_data
+    data = json.load(json_file)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-10-20 10:09:17,160 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:09:17] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 10:09:19,630 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 158
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:09:19,630 - root - INFO - Request Method: POST
+2023-10-20 10:09:19,630 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:09:19,630 - root - INFO - Request Data: b'{"username":"Abc@gmail","pass":"Abc","firstName":"Anvesh","lastName":"V","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 10:09:35,083 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 63, in signup
+    if handlejsonfile.check_user(username,password):
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 40, in check_user
+    data = read_data()
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 13, in read_data
+    data = json.load(json_file)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-10-20 10:09:35,083 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:09:35] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 10:10:21,784 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 158
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:10:21,784 - root - INFO - Request Method: POST
+2023-10-20 10:10:21,788 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:10:21,788 - root - INFO - Request Data: b'{"username":"Abc@gmail","pass":"Abc","firstName":"Anvesh","lastName":"V","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 10:10:51,871 - main - ERROR - Exception on /signup [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Vineela\PycharmProjects\Server\venv\lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Vineela\PycharmProjects\Server\main.py", line 63, in signup
+    if handlejsonfile.check_user(username,password):
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 40, in check_user
+    data = read_data()
+  File "C:\Users\Vineela\PycharmProjects\Server\handlejsonfile.py", line 13, in read_data
+    data = json.load(json_file)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-10-20 10:10:51,871 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:10:51] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2023-10-20 10:12:39,950 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 10:12:39,950 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 10:12:41,084 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 158
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:12:41,085 - root - INFO - Request Method: POST
+2023-10-20 10:12:41,085 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:12:41,085 - root - INFO - Request Data: b'{"username":"Abc@gmail","pass":"Abc","firstName":"Anvesh","lastName":"V","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 10:13:17,927 - root - INFO - firstname is: Anvesh
+2023-10-20 10:13:18,513 - root - INFO - username in signup : None
+2023-10-20 10:13:18,966 - root - INFO - password fetched from data: Abc
+2023-10-20 10:13:24,259 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:13:24] "POST /signup HTTP/1.1" 200 -
+2023-10-20 10:15:37,967 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 10:15:37,967 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 10:15:39,162 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 158
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:15:39,162 - root - INFO - Request Method: POST
+2023-10-20 10:15:39,162 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:15:39,169 - root - INFO - Request Data: b'{"username":"Abc@gmail","pass":"Abc","firstName":"Anvesh","lastName":"V","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 10:16:03,889 - root - INFO - firstname is: Anvesh
+2023-10-20 10:16:04,142 - root - INFO - username in signup : Abc@gmail
+2023-10-20 10:16:04,424 - root - INFO - password fetched from data: Abc
+2023-10-20 10:16:08,088 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:16:08] "POST /signup HTTP/1.1" 200 -
+2023-10-20 10:17:04,298 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:17:04,298 - root - INFO - Request Method: POST
+2023-10-20 10:17:04,314 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 10:17:04,314 - root - INFO - Request Data: b'{"username":"Abc@gmail","password":"Abc"}'
+2023-10-20 10:17:47,024 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:17:47] "POST /login HTTP/1.1" 200 -
+2023-10-20 10:19:06,699 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 165
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:19:06,699 - root - INFO - Request Method: POST
+2023-10-20 10:19:06,699 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:19:06,699 - root - INFO - Request Data: b'{"username":"sach@gmail.com","pass":"Pass1","firstName":"Ten","lastName":"Sach","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 10:19:13,449 - root - INFO - firstname is: Ten
+2023-10-20 10:19:13,449 - root - INFO - username in signup : sach@gmail.com
+2023-10-20 10:19:13,449 - root - INFO - password fetched from data: Pass1
+2023-10-20 10:19:13,449 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:19:13] "POST /signup HTTP/1.1" 200 -
+2023-10-20 10:19:44,176 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 48
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:19:44,176 - root - INFO - Request Method: POST
+2023-10-20 10:19:44,176 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 10:19:44,176 - root - INFO - Request Data: b'{"username":"sach@gmail.com","password":"Pass1"}'
+2023-10-20 10:19:50,195 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:19:50] "POST /login HTTP/1.1" 200 -
+2023-10-20 10:29:21,347 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 165
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:29:21,347 - root - INFO - Request Method: POST
+2023-10-20 10:29:21,347 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:29:21,347 - root - INFO - Request Data: b'{"username":"sach@gmail.com","pass":"Pass1","firstName":"Ten","lastName":"Sach","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 10:29:30,555 - werkzeug - INFO - 192.168.0.218 - - [20/Oct/2023 10:29:30] "POST /signup HTTP/1.1" 200 -
+2023-10-20 10:33:08,642 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 157
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:33:08,642 - root - INFO - Request Method: POST
+2023-10-20 10:33:08,642 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:33:08,642 - root - INFO - Request Data: b'{"username":"Abc@gmail","pass":"Abc","firstName":"Anvesh","lastName":"","phone":"","organization":null,"street_address":"","city":"","state":"","zipcode":""}'
+2023-10-20 10:49:05,675 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 10:49:05,676 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 10:50:50,490 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 164
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:50:50,490 - root - INFO - Request Method: POST
+2023-10-20 10:50:50,491 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:50:50,491 - root - INFO - Request Data: b'{"username":"123@gmail","pass":"Abc","firstName":"A","lastName":"V","phone":"698","organization":"Transportation","street_address":"","city":"","state":"","zip":""}'
+2023-10-20 10:50:50,493 - root - INFO - firstname is: A, lastname: V, phone: 698, organization: Transportation
+2023-10-20 10:50:50,494 - root - INFO - , street: , city: , state: , zipcode: 
+2023-10-20 10:50:50,494 - root - INFO - username in signup : 123@gmail
+2023-10-20 10:50:50,494 - root - INFO - password fetched from data: Abc
+2023-10-20 10:50:50,495 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 10:50:50] "POST /signup HTTP/1.1" 200 -
+2023-10-20 10:51:58,526 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 181
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:51:58,527 - root - INFO - Request Method: POST
+2023-10-20 10:51:58,527 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:51:58,527 - root - INFO - Request Data: b'{"username":"123@gmail","pass":"Abc","firstName":"A","lastName":"V","phone":"698","organization":"Transportation","street_address":"E b","city":"Noramn","state":"Ok","zip":"693125"}'
+2023-10-20 10:51:58,529 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 10:51:58] "POST /signup HTTP/1.1" 200 -
+2023-10-20 10:52:06,064 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 182
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 10:52:06,064 - root - INFO - Request Method: POST
+2023-10-20 10:52:06,065 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 10:52:06,065 - root - INFO - Request Data: b'{"username":"5123@gmail","pass":"Abc","firstName":"A","lastName":"V","phone":"698","organization":"Transportation","street_address":"E b","city":"Noramn","state":"Ok","zip":"693125"}'
+2023-10-20 10:52:06,067 - root - INFO - firstname is: A, lastname: V, phone: 698, organization: Transportation
+2023-10-20 10:52:06,067 - root - INFO - , street: E b, city: Noramn, state: Ok, zipcode: 693125
+2023-10-20 10:52:06,067 - root - INFO - username in signup : 5123@gmail
+2023-10-20 10:52:06,067 - root - INFO - password fetched from data: Abc
+2023-10-20 10:52:06,067 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 10:52:06] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:11:11,312 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 182
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:11:11,313 - root - INFO - Request Method: POST
+2023-10-20 11:11:11,313 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:11:11,313 - root - INFO - Request Data: b'{"username":"5123@gmail","pass":"Abc","firstName":"A","lastName":"V","phone":"698","organization":"Transportation","street_address":"E b","city":"Noramn","state":"Ok","zip":"693125"}'
+2023-10-20 11:11:11,314 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:11:11] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:11:15,232 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 183
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:11:15,232 - root - INFO - Request Method: POST
+2023-10-20 11:11:15,233 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:11:15,233 - root - INFO - Request Data: b'{"username":"57123@gmail","pass":"Abc","firstName":"A","lastName":"V","phone":"698","organization":"Transportation","street_address":"E b","city":"Noramn","state":"Ok","zip":"693125"}'
+2023-10-20 11:11:15,236 - root - INFO - firstname is: A, lastname: V, phone: 698, organization: Transportation
+2023-10-20 11:11:15,236 - root - INFO - , street: E b, city: Noramn, state: Ok, zipcode: 693125
+2023-10-20 11:11:15,236 - root - INFO - username in signup : 57123@gmail
+2023-10-20 11:11:15,236 - root - INFO - password fetched from data: Abc
+2023-10-20 11:11:15,237 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:11:15] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:11:58,310 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 184
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:11:58,311 - root - INFO - Request Method: POST
+2023-10-20 11:11:58,311 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:11:58,311 - root - INFO - Request Data: b'{"username":"571723@gmail","pass":"Abc","firstName":"A","lastName":"V","phone":"698","organization":"Transportation","street_address":"E b","city":"Noramn","state":"Ok","zip":"693125"}'
+2023-10-20 11:11:58,322 - root - INFO - firstname is: A, lastname: V, phone: 698, organization: Transportation
+2023-10-20 11:11:58,322 - root - INFO - , street: E b, city: Noramn, state: Ok, zipcode: 693125
+2023-10-20 11:11:58,322 - root - INFO - username in signup : 571723@gmail
+2023-10-20 11:11:58,322 - root - INFO - password fetched from data: Abc
+2023-10-20 11:11:58,323 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:11:58] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:12:47,310 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 151
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:12:47,310 - root - INFO - Request Method: POST
+2023-10-20 11:12:47,310 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:12:47,311 - root - INFO - Request Data: b'{"username":"6@yahoo.com","pass":"Yahoo","firstName":"","lastName":"","phone":"","organization":null,"street_address":"","city":"","state":"","zip":""}'
+2023-10-20 11:12:47,321 - root - INFO - firstname is: , lastname: , phone: , organization: None
+2023-10-20 11:12:47,322 - root - INFO - , street: , city: , state: , zipcode: 
+2023-10-20 11:12:47,322 - root - INFO - username in signup : 6@yahoo.com
+2023-10-20 11:12:47,322 - root - INFO - password fetched from data: Yahoo
+2023-10-20 11:12:47,322 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:12:47] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:14:30,371 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 152
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:14:30,371 - root - INFO - Request Method: POST
+2023-10-20 11:14:30,371 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:14:30,371 - root - INFO - Request Data: b'{"username":"16@yahoo.com","pass":"Yahoo","firstName":"","lastName":"","phone":"","organization":null,"street_address":"","city":"","state":"","zip":""}'
+2023-10-20 11:14:30,388 - root - INFO - firstname is: , lastname: , phone: , organization: None
+2023-10-20 11:14:30,388 - root - INFO - , street: , city: , state: , zipcode: 
+2023-10-20 11:14:30,388 - root - INFO - username in signup : 16@yahoo.com
+2023-10-20 11:14:30,389 - root - INFO - password fetched from data: Yahoo
+2023-10-20 11:14:30,389 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:14:30] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:17:35,482 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 223
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:17:35,482 - root - INFO - Request Method: POST
+2023-10-20 11:17:35,483 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:17:35,483 - root - INFO - Request Data: b'{"username":"Vineela@gmail.com","pass":"Vineela","firstName":"Vineela","lastName":"Kv","phone":"1235698740","organization":"Transportation","street_address":"Brooks street","city":"Norman","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 11:17:35,490 - root - INFO - firstname is: Vineela, lastname: Kv, phone: 1235698740, organization: Transportation
+2023-10-20 11:17:35,490 - root - INFO - , street: Brooks street, city: Norman, state: Oklahoma , zipcode: 73071
+2023-10-20 11:17:35,491 - root - INFO - username in signup : Vineela@gmail.com
+2023-10-20 11:17:35,491 - root - INFO - password fetched from data: Vineela
+2023-10-20 11:17:35,492 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:17:35] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:17:41,893 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 223
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:17:41,893 - root - INFO - Request Method: POST
+2023-10-20 11:17:41,893 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:17:41,893 - root - INFO - Request Data: b'{"username":"Vineela@gmail.com","pass":"Vineela","firstName":"Vineela","lastName":"Kv","phone":"1235698740","organization":"Transportation","street_address":"Brooks street","city":"Norman","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 11:17:41,900 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:17:41] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:20:00,997 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 226
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:20:00,997 - root - INFO - Request Method: POST
+2023-10-20 11:20:00,997 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:20:00,998 - root - INFO - Request Data: b'{"username":"Vineela@gmail.com","pass":"Vineela","firstName":"Vineela","lastName":"Kv","phone":"6938527410","organization":"Transportation","street_address":"Alameda street ","city":"Norman ","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 11:20:01,001 - root - INFO - firstname is: Vineela, lastname: Kv, phone: 6938527410, organization: Transportation
+2023-10-20 11:20:01,001 - root - INFO - , street: Alameda street , city: Norman , state: Oklahoma , zipcode: 73071
+2023-10-20 11:20:01,001 - root - INFO - username in signup : Vineela@gmail.com
+2023-10-20 11:20:01,001 - root - INFO - password fetched from data: Vineela
+2023-10-20 11:20:01,001 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:20:01] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:20:15,032 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 221
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:20:15,033 - root - INFO - Request Method: POST
+2023-10-20 11:20:15,033 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:20:15,033 - root - INFO - Request Data: b'{"username":"Vineela@gmail.com","pass":"Vineela","firstName":"Vin","lastName":"K","phone":"6938527410","organization":"Transportation","street_address":"Alameda street ","city":"Norman ","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 11:20:15,044 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:20:15] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:20:33,167 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 53
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:20:33,168 - root - INFO - Request Method: POST
+2023-10-20 11:20:33,168 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 11:20:33,168 - root - INFO - Request Data: b'{"username":"Vineela@gmail.com","password":"Vineela"}'
+2023-10-20 11:20:33,169 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:20:33] "POST /login HTTP/1.1" 200 -
+2023-10-20 11:22:17,489 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 223
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:22:17,489 - root - INFO - Request Method: POST
+2023-10-20 11:22:17,490 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:22:17,490 - root - INFO - Request Data: b'{"username":"Vineela@gmail.com","pass":"Vineela","firstName":"Vineela","lastName":"Kv","phone":"9637418520","organization":"Transportation","street_address":"Main street ","city":"Norman ","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 11:22:17,491 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:22:17] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:22:28,276 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 225
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:22:28,277 - root - INFO - Request Method: POST
+2023-10-20 11:22:28,277 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:22:28,277 - root - INFO - Request Data: b'{"username":"Vineelakv@gmail.com","pass":"Vineela","firstName":"Vineela","lastName":"Kv","phone":"9637418520","organization":"Transportation","street_address":"Main street ","city":"Norman ","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 11:22:28,281 - root - INFO - firstname is: Vineela, lastname: Kv, phone: 9637418520, organization: Transportation
+2023-10-20 11:22:28,281 - root - INFO - , street: Main street , city: Norman , state: Oklahoma , zipcode: 73071
+2023-10-20 11:22:28,281 - root - INFO - username in signup : Vineelakv@gmail.com
+2023-10-20 11:22:28,281 - root - INFO - password fetched from data: Vineela
+2023-10-20 11:22:28,281 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:22:28] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:22:43,890 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 50
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:22:43,891 - root - INFO - Request Method: POST
+2023-10-20 11:22:43,891 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 11:22:43,891 - root - INFO - Request Data: b'{"username":"Vineela@gmail.com ","password":"123"}'
+2023-10-20 11:22:43,902 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:22:43] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-20 11:22:52,672 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 54
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:22:52,673 - root - INFO - Request Method: POST
+2023-10-20 11:22:52,673 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 11:22:52,673 - root - INFO - Request Data: b'{"username":"Vineela@gmail.com ","password":"Vineela"}'
+2023-10-20 11:22:52,674 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:22:52] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-20 11:23:45,718 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 11:23:45,718 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 11:25:27,979 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 215
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:25:27,979 - root - INFO - Request Method: POST
+2023-10-20 11:25:27,980 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:25:27,980 - root - INFO - Request Data: b'{"username":"Abcd@gmail.com","pass":"Vineela","firstName":"Ab","lastName":"Cd","phone":"1234567890","organization":"Transportation","street_address":"Main street ","city":"Norman ","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 11:25:27,985 - root - INFO - firstname is: Ab, lastname: Cd, phone: 1234567890, organization: Transportation
+2023-10-20 11:25:27,985 - root - INFO - , street: Main street , city: Norman , state: Oklahoma , zipcode: 73071
+2023-10-20 11:25:27,985 - root - INFO - username in signup : Abcd@gmail.com
+2023-10-20 11:25:27,985 - root - INFO - password fetched from data: Vineela
+2023-10-20 11:25:27,986 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:25:27] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:25:48,725 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 50
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:25:48,725 - root - INFO - Request Method: POST
+2023-10-20 11:25:48,726 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 11:25:48,726 - root - INFO - Request Data: b'{"username":"Abcd@gmail.com","password":"Vineela"}'
+2023-10-20 11:25:48,739 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:25:48] "POST /login HTTP/1.1" 200 -
+2023-10-20 11:26:29,253 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 215
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:26:29,253 - root - INFO - Request Method: POST
+2023-10-20 11:26:29,253 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 11:26:29,254 - root - INFO - Request Data: b'{"username":"Abcd@gmail.com","pass":"Vineela","firstName":"Ab","lastName":"Cd","phone":"1234567890","organization":"Transportation","street_address":"Main street ","city":"Norman ","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 11:26:29,255 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:26:29] "POST /signup HTTP/1.1" 200 -
+2023-10-20 11:26:44,669 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 46
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 11:26:44,669 - root - INFO - Request Method: POST
+2023-10-20 11:26:44,670 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-20 11:26:44,670 - root - INFO - Request Data: b'{"username":"Abcd@gmail.com","password":"123"}'
+2023-10-20 11:26:44,671 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 11:26:44] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-20 17:52:19,830 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 17:52:19,830 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 17:58:04,771 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-20 17:58:04,771 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-20 17:59:30,878 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 229
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 17:59:30,878 - root - INFO - Request Method: POST
+2023-10-20 17:59:30,878 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 17:59:30,879 - root - INFO - Request Data: b'{"username":"Vineelakv1710@gmail.com","pass":"Vineela","firstName":"vineela ","lastName":"Kv","phone":"3698527410","organization":"Transportation","street_address":"Main street ","city":"Norman","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 17:59:30,881 - root - INFO - firstname is: vineela , lastname: Kv, phone: 3698527410, organization: Transportation
+2023-10-20 17:59:30,881 - root - INFO - , street: Main street , city: Norman, state: Oklahoma , zipcode: 73071
+2023-10-20 17:59:30,882 - root - INFO - username in signup : Vineelakv1710@gmail.com
+2023-10-20 17:59:30,882 - root - INFO - password fetched from data: Vineela
+2023-10-20 17:59:30,883 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 17:59:30] "POST /signup HTTP/1.1" 200 -
+2023-10-20 18:01:10,909 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 243
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-20 18:01:10,909 - root - INFO - Request Method: POST
+2023-10-20 18:01:10,909 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-20 18:01:10,909 - root - INFO - Request Data: b'{"username":"Anveshvanga@gmail.com","pass":"Anvesh","firstName":"Anvesh","lastName":"Vanga","phone":"3698527411","organization":"Public Works and Engineering","street_address":"Main street 12","city":"Norman","state":"Oklahoma ","zip":"73071"}'
+2023-10-20 18:01:10,909 - root - INFO - firstname is: Anvesh, lastname: Vanga, phone: 3698527411, organization: Public Works and Engineering
+2023-10-20 18:01:10,909 - root - INFO - , street: Main street 12, city: Norman, state: Oklahoma , zipcode: 73071
+2023-10-20 18:01:10,909 - root - INFO - username in signup : Anveshvanga@gmail.com
+2023-10-20 18:01:10,909 - root - INFO - password fetched from data: Anvesh
+2023-10-20 18:01:10,909 - werkzeug - INFO - 192.168.0.151 - - [20/Oct/2023 18:01:10] "POST /signup HTTP/1.1" 200 -
