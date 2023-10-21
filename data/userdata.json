@@ -1,0 +1,24 @@
+{
+    "Vineelakv1710@gmail.com": {
+        "firstname": "vineela ",
+        "lastname": "Kv",
+        "password": "Vineela",
+        "phone": "3698527410",
+        "organization": "Transportation",
+        "street_address": "Main street ",
+        "city": "Norman",
+        "state": "Oklahoma ",
+        "zipcode": "73071"
+    },
+    "Anveshvanga@gmail.com": {
+        "firstname": "Anvesh",
+        "lastname": "Vanga",
+        "password": "Anvesh",
+        "phone": "3698527411",
+        "organization": "Public Works and Engineering",
+        "street_address": "Main street 12",
+        "city": "Norman",
+        "state": "Oklahoma ",
+        "zipcode": "73071"
+    }
+}
