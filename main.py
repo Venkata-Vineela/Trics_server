@@ -1,20 +1,19 @@
 import logging
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, session
 from flask_cors import CORS
-import handlejsonfile
+import handledata
 import sqlite3
+
+## sessions code here
+from flask_session import Session  # Import Flask-Session
 
 logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS to allow cross-origin requests
 
-# Sample user data (you would typically have a database)
-# users = {
-#     'user1': {'password': 'password1'},
-#     'user2': {'password': 'password2'}
-# }
-
+app.config['SESSION_TYPE'] = 'filesystem'  # You can choose other session storage options
+Session(app)
 
 # Define the database initialize function
 def initialize_database():
@@ -54,10 +53,18 @@ def log_request_info():
 # Sample protected endpoint
 @app.route('/protected')
 def protected():
-    user = "true"
-    if user:
-        return jsonify({"message": f"Protected resource accessed by {user}"})
+    logging.info('Request Headers in protected: %s', request.headers)
+
+    if 'user' in session:
+        # Get the username from the session
+        session_username = session['user']
+        return jsonify({"message": f"Protected resource accessed by {session_username}"})
     return jsonify({"message": "Unauthorized"}), 401
+    # data = request.get_json()
+    # username = data.get('username')
+    # if username in session['user']:
+    #     return jsonify({"message": "Protected resource accessed by "})
+    # return jsonify({"message": "Unauthorized"}), 401
 
 # Login endpoint
 @app.route('/login', methods=['POST'])
@@ -65,7 +72,10 @@ def login():
     data = request.get_json()
     username = data.get('username')
     password = data.get('password')
-    if handlejsonfile.authenticate(username, password):
+    logging.info('session Data: %s', session)
+
+    if handledata.authenticate(username, password):
+        session['user'] = username  # Store the user in the session
         return jsonify({"message": "Login successful"})
     else:
         return jsonify({"message": "Login failed"}), 401
@@ -73,9 +83,14 @@ def login():
 # Logout endpoint
 @app.route('/logout')
 def logout():
-    # if 'user' in session:
-    #     session.pop('user', None)
-    return jsonify({"message": "Logged out"})
+    data = request.get_json()
+    username = data.get('username')
+
+    if 'user' in session and session['user'] == username:
+        session.pop('user', None)
+        return jsonify({"message": f"Logged out user: {username}"})
+    else:
+        return jsonify({"message": "Not logged in or username doesn't match"})
 
 @app.route('/signup', methods=['POST'])
 def signup():
@@ -93,10 +108,10 @@ def signup():
     state = data.get("state")
     zipcode = data.get("zip")
 
-    if handlejsonfile.check_user(username):
+    if handledata.check_user(username):
         return jsonify({"message": "username already exists"})
     else:
-        handlejsonfile.add_user(firstname, lastname, username, password, phone, organization, street_address, city, state, zipcode)
+        handledata.add_user(firstname, lastname, username, password, phone, organization, street_address, city, state, zipcode)
 
     logging.info('firstname is: %s, lastname: %s, phone: %s, organization: %s', firstname, lastname, phone, organization)
     logging.info(', street: %s, city: %s, state: %s, zipcode: %s', street_address, city, state, zipcode)

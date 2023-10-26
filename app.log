@@ -1568,3 +1568,1093 @@ User-Agent: okhttp/4.9.2
  * Running on http://127.0.0.1:5000
  * Running on http://192.168.0.188:5000
 2023-10-25 21:54:58,019 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-25 22:17:06,768 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-25 22:17:06,768 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-25 22:18:38,504 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 147
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-25 22:18:38,504 - root - INFO - Request Method: POST
+2023-10-25 22:18:38,504 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-25 22:18:38,506 - root - INFO - Request Data: b'{"username":"V@gmail.com","pass":"V","firstName":"","lastName":"","phone":"","organization":null,"street_address":"","city":"","state":"","zip":""}'
+2023-10-25 22:18:38,517 - root - INFO - firstname is: , lastname: , phone: , organization: None
+2023-10-25 22:18:38,517 - root - INFO - , street: , city: , state: , zipcode: 
+2023-10-25 22:18:38,517 - root - INFO - username in signup : V@gmail.com
+2023-10-25 22:18:38,517 - root - INFO - password fetched from data: V
+2023-10-25 22:18:38,520 - werkzeug - INFO - 192.168.0.151 - - [25/Oct/2023 22:18:38] "POST /signup HTTP/1.1" 200 -
+2023-10-25 22:18:49,119 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-25 22:18:49,119 - root - INFO - Request Method: POST
+2023-10-25 22:18:49,120 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-25 22:18:49,120 - root - INFO - Request Data: b'{"username":"V@gmail.com ","password":"V"}'
+2023-10-25 22:18:49,129 - werkzeug - INFO - 192.168.0.151 - - [25/Oct/2023 22:18:49] "POST /login HTTP/1.1" 200 -
+2023-10-25 22:19:18,190 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-25 22:19:18,190 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-25 22:19:41,996 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-25 22:19:41,996 - root - INFO - Request Method: POST
+2023-10-25 22:19:41,996 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-25 22:19:41,996 - root - INFO - Request Data: b'{"username":"V@gmail.com","password":"V"}'
+2023-10-25 22:20:25,282 - werkzeug - INFO - 192.168.0.151 - - [25/Oct/2023 22:20:25] "POST /login HTTP/1.1" 200 -
+2023-10-26 11:21:45,416 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 11:21:45,416 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:21:57,592 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 11:21:57,592 - root - INFO - Request Method: POST
+2023-10-26 11:21:57,592 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 11:21:57,592 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 11:21:57,608 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:21:57] "POST /login HTTP/1.1" 200 -
+2023-10-26 11:24:23,819 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 11:24:23,819 - root - INFO - Request Method: POST
+2023-10-26 11:24:23,819 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 11:24:23,819 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 11:24:23,827 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:24:23] "POST /login HTTP/1.1" 200 -
+2023-10-26 11:24:46,425 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 11:24:46,425 - root - INFO - Request Method: POST
+2023-10-26 11:24:46,425 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 11:24:46,425 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 11:24:46,433 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:24:46] "POST /login HTTP/1.1" 200 -
+2023-10-26 11:25:03,031 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 11:25:03,031 - root - INFO - Request Method: POST
+2023-10-26 11:25:03,031 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 11:25:03,031 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 11:25:03,046 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:25:03] "POST /login HTTP/1.1" 200 -
+2023-10-26 11:34:56,907 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 11:34:56,907 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:35:54,724 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 11:35:54,724 - root - INFO - Request Method: POST
+2023-10-26 11:35:54,724 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 11:35:54,724 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 11:36:01,262 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:36:01] "POST /login HTTP/1.1" 200 -
+2023-10-26 11:36:01,568 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 11:36:01,568 - root - INFO - Request Method: GET
+2023-10-26 11:36:01,568 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 11:36:01,568 - root - INFO - Request Data: b''
+2023-10-26 11:36:05,270 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 11:36:05,270 - root - INFO - Request Method: POST
+2023-10-26 11:36:05,270 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 11:36:05,270 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 11:36:16,461 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:36:16] "GET /protected HTTP/1.1" 200 -
+2023-10-26 11:36:16,461 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:36:16] "POST /login HTTP/1.1" 200 -
+2023-10-26 11:36:16,589 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 11:36:16,589 - root - INFO - Request Method: GET
+2023-10-26 11:36:16,589 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 11:36:16,589 - root - INFO - Request Data: b''
+2023-10-26 11:37:56,341 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 11:37:56,341 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:39:01,206 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 11:39:01,206 - root - INFO - Request Method: POST
+2023-10-26 11:39:01,206 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 11:39:01,206 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 11:39:01,206 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:39:01] "POST /login HTTP/1.1" 200 -
+2023-10-26 11:39:01,347 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 11:39:01,347 - root - INFO - Request Method: GET
+2023-10-26 11:39:01,347 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 11:39:01,347 - root - INFO - Request Data: b''
+2023-10-26 11:39:01,347 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 11:39:01] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:31:23,723 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 13:31:23,724 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 13:32:04,855 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:32:04,855 - root - INFO - Request Method: POST
+2023-10-26 13:32:04,855 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:32:04,855 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:32:04,874 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:32:04] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:32:04,995 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:32:04,995 - root - INFO - Request Method: GET
+2023-10-26 13:32:04,995 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:32:04,998 - root - INFO - Request Data: b''
+2023-10-26 13:32:05,004 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:32:05] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:32:59,287 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 13:32:59,287 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 13:33:01,940 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:33:01,940 - root - INFO - Request Method: POST
+2023-10-26 13:33:01,940 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:33:01,940 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:33:01,945 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:01] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:33:02,003 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:33:02,004 - root - INFO - Request Method: GET
+2023-10-26 13:33:02,004 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:33:02,004 - root - INFO - Request Data: b''
+2023-10-26 13:33:02,006 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:02] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:33:08,395 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:33:08,396 - root - INFO - Request Method: POST
+2023-10-26 13:33:08,396 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:33:08,396 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:33:08,398 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:08] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:33:08,478 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:33:08,478 - root - INFO - Request Method: GET
+2023-10-26 13:33:08,478 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:33:08,479 - root - INFO - Request Data: b''
+2023-10-26 13:33:08,484 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:08] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:33:22,925 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:33:22,925 - root - INFO - Request Method: POST
+2023-10-26 13:33:22,925 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:33:22,925 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:33:22,940 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:22] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:33:22,988 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:33:22,988 - root - INFO - Request Method: GET
+2023-10-26 13:33:22,988 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:33:22,988 - root - INFO - Request Data: b''
+2023-10-26 13:33:23,006 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:23] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:33:44,356 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 13:33:44,356 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 13:33:47,100 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:33:47,100 - root - INFO - Request Method: POST
+2023-10-26 13:33:47,100 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:33:47,100 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:33:47,100 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:47] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:33:47,192 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:33:47,192 - root - INFO - Request Method: GET
+2023-10-26 13:33:47,192 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:33:47,192 - root - INFO - Request Data: b''
+2023-10-26 13:33:47,192 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:47] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:33:50,168 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:33:50,168 - root - INFO - Request Method: POST
+2023-10-26 13:33:50,168 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:33:50,168 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:33:50,168 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:50] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:33:50,232 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:33:50,238 - root - INFO - Request Method: GET
+2023-10-26 13:33:50,238 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:33:50,238 - root - INFO - Request Data: b''
+2023-10-26 13:33:50,242 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:50] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:33:52,946 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:33:52,946 - root - INFO - Request Method: POST
+2023-10-26 13:33:52,946 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:33:52,946 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:33:52,953 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:52] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:33:53,026 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:33:53,026 - root - INFO - Request Method: GET
+2023-10-26 13:33:53,026 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:33:53,026 - root - INFO - Request Data: b''
+2023-10-26 13:33:53,033 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:53] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:33:55,871 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:33:55,871 - root - INFO - Request Method: POST
+2023-10-26 13:33:55,871 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:33:55,871 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:33:55,871 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:55] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:33:55,934 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:33:55,934 - root - INFO - Request Method: GET
+2023-10-26 13:33:55,934 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:33:55,934 - root - INFO - Request Data: b''
+2023-10-26 13:33:55,946 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:33:55] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:36:07,470 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:36:07,470 - root - INFO - Request Method: POST
+2023-10-26 13:36:07,470 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:36:07,470 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:36:07,485 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:36:07] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:36:07,571 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:36:07,571 - root - INFO - Request Method: GET
+2023-10-26 13:36:07,571 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:36:07,571 - root - INFO - Request Data: b''
+2023-10-26 13:36:07,585 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:36:07] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:36:29,692 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:36:29,692 - root - INFO - Request Method: POST
+2023-10-26 13:36:29,692 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:36:29,692 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:36:29,706 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:36:29] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:36:29,796 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:36:29,796 - root - INFO - Request Method: GET
+2023-10-26 13:36:29,796 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:36:29,796 - root - INFO - Request Data: b''
+2023-10-26 13:36:29,809 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:36:29] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:36:51,746 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:36:51,746 - root - INFO - Request Method: POST
+2023-10-26 13:36:51,746 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:36:51,746 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:36:51,754 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:36:51] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:36:51,835 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:36:51,835 - root - INFO - Request Method: GET
+2023-10-26 13:36:51,835 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:36:51,835 - root - INFO - Request Data: b''
+2023-10-26 13:36:51,846 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:36:51] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:43:30,534 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 13:43:30,534 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 13:44:13,696 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:44:13,696 - root - INFO - Request Method: POST
+2023-10-26 13:44:13,696 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:44:13,696 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:44:13,709 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:44:13] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:44:13,823 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:44:13,823 - root - INFO - Request Method: GET
+2023-10-26 13:44:13,823 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:44:13,823 - root - INFO - Request Data: b''
+2023-10-26 13:44:13,828 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:44:13] "[31m[1mGET /protected HTTP/1.1[0m" 415 -
+2023-10-26 13:46:46,924 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 13:46:46,924 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 13:46:50,578 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:46:50,578 - root - INFO - Request Method: POST
+2023-10-26 13:46:50,578 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:46:50,578 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:46:50,581 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:46:50] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:46:50,644 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 16:36:16 GMT
+
+
+2023-10-26 13:46:50,644 - root - INFO - Request Method: GET
+2023-10-26 13:46:50,644 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:46:50,644 - root - INFO - Request Data: b''
+2023-10-26 13:46:50,649 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:46:50] "GET /protected HTTP/1.1" 200 -
+2023-10-26 13:46:56,514 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:46:56,514 - root - INFO - Request Method: POST
+2023-10-26 13:46:56,514 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:46:56,514 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:46:56,517 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:46:56] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:46:56,604 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 18:46:50 GMT
+
+
+2023-10-26 13:46:56,604 - root - INFO - Request Method: GET
+2023-10-26 13:46:56,604 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:46:56,604 - root - INFO - Request Data: b''
+2023-10-26 13:46:56,607 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:46:56] "GET /protected HTTP/1.1" 200 -
+2023-10-26 13:47:03,563 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:47:03,564 - root - INFO - Request Method: POST
+2023-10-26 13:47:03,564 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:47:03,564 - root - INFO - Request Data: b'{"username":"A@gmail.com","password":"H"}'
+2023-10-26 13:47:03,568 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:47:03] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:47:03,653 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 18:46:56 GMT
+
+
+2023-10-26 13:47:03,654 - root - INFO - Request Method: GET
+2023-10-26 13:47:03,654 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:47:03,654 - root - INFO - Request Data: b''
+2023-10-26 13:47:03,660 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:47:03] "GET /protected HTTP/1.1" 200 -
+2023-10-26 13:47:08,836 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:47:08,836 - root - INFO - Request Method: POST
+2023-10-26 13:47:08,836 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:47:08,836 - root - INFO - Request Data: b'{"username":"KA@gmail.com","password":"H"}'
+2023-10-26 13:47:08,840 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:47:08] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-26 13:47:17,208 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:47:17,208 - root - INFO - Request Method: POST
+2023-10-26 13:47:17,208 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:47:17,208 - root - INFO - Request Data: b'{"username":"K@gmail.com","password":"K"}'
+2023-10-26 13:47:17,211 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:47:17] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:47:17,298 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 18:47:03 GMT
+
+
+2023-10-26 13:47:17,298 - root - INFO - Request Method: GET
+2023-10-26 13:47:17,298 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:47:17,298 - root - INFO - Request Data: b''
+2023-10-26 13:47:17,301 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:47:17] "GET /protected HTTP/1.1" 200 -
+2023-10-26 13:50:37,903 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:50:37,903 - root - INFO - Request Method: POST
+2023-10-26 13:50:37,903 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:50:37,903 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 13:50:37,906 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:50:37] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:50:38,021 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 18:47:17 GMT
+
+
+2023-10-26 13:50:38,021 - root - INFO - Request Method: GET
+2023-10-26 13:50:38,021 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:50:38,021 - root - INFO - Request Data: b''
+2023-10-26 13:50:38,028 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:50:38] "GET /protected HTTP/1.1" 200 -
+2023-10-26 13:51:54,204 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 36
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:51:54,204 - root - INFO - Request Method: POST
+2023-10-26 13:51:54,204 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:51:54,205 - root - INFO - Request Data: b'{"username":"NC I k","password":"H"}'
+2023-10-26 13:51:54,207 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:51:54] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-26 13:54:12,043 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 2
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:54:12,044 - root - INFO - Request Method: POST
+2023-10-26 13:54:12,044 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:54:12,044 - root - INFO - Request Data: b'{}'
+2023-10-26 13:54:12,045 - main - ERROR - Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\main.py", line 77, in login
+    return jsonify({"message": "Login successful"})
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\handlejsonfile.py", line 120, in authenticate
+    username = username.strip()
+               ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2023-10-26 13:54:12,094 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:54:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2023-10-26 13:54:34,996 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 13:54:34,997 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 13:54:47,256 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:54:47,256 - root - INFO - Request Method: POST
+2023-10-26 13:54:47,256 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:54:47,257 - root - INFO - Request Data: b'{"username":"H@gmail.com","password":"H"}'
+2023-10-26 13:54:47,257 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'H@gmail.com '}>
+2023-10-26 13:54:47,261 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:54:47] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:54:47,346 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 18:50:38 GMT
+
+
+2023-10-26 13:54:47,347 - root - INFO - Request Method: GET
+2023-10-26 13:54:47,347 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:54:47,347 - root - INFO - Request Data: b''
+2023-10-26 13:54:47,352 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:54:47] "GET /protected HTTP/1.1" 200 -
+2023-10-26 13:55:17,871 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 13:55:17,871 - root - INFO - Request Method: POST
+2023-10-26 13:55:17,872 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 13:55:17,872 - root - INFO - Request Data: b'{"username":"A@gmail.com","password":"H"}'
+2023-10-26 13:55:17,872 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'H@gmail.com'}>
+2023-10-26 13:55:17,875 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:55:17] "POST /login HTTP/1.1" 200 -
+2023-10-26 13:55:17,946 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 18:54:47 GMT
+
+
+2023-10-26 13:55:17,946 - root - INFO - Request Method: GET
+2023-10-26 13:55:17,946 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 13:55:17,946 - root - INFO - Request Data: b''
+2023-10-26 13:55:17,950 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 13:55:17] "GET /protected HTTP/1.1" 200 -
+2023-10-26 15:50:04,884 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 31
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 15:50:04,887 - root - INFO - Request Method: POST
+2023-10-26 15:50:04,889 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 15:50:04,889 - root - INFO - Request Data: b'{"username":"H","password":"A"}'
+2023-10-26 15:50:04,889 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-10-26 15:50:04,936 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 15:50:04] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-26 15:50:09,182 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 147
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 15:50:09,182 - root - INFO - Request Method: POST
+2023-10-26 15:50:09,182 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-10-26 15:50:09,182 - root - INFO - Request Data: b'{"username":"V@gmail.com","pass":"V","firstName":"","lastName":"","phone":"","organization":null,"street_address":"","city":"","state":"","zip":""}'
+2023-10-26 15:50:09,199 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 15:50:09] "POST /signup HTTP/1.1" 200 -
+2023-10-26 15:50:13,193 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 31
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 15:50:13,193 - root - INFO - Request Method: POST
+2023-10-26 15:50:13,193 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 15:50:13,193 - root - INFO - Request Data: b'{"username":"H","password":"A"}'
+2023-10-26 15:50:13,193 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-10-26 15:50:13,193 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 15:50:13] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-26 15:50:20,299 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 15:50:20,299 - root - INFO - Request Method: POST
+2023-10-26 15:50:20,299 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 15:50:20,299 - root - INFO - Request Data: b'{"username":"V@gmail.com ","password":"V"}'
+2023-10-26 15:50:20,299 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'A@gmail.com'}>
+2023-10-26 15:50:20,303 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 15:50:20] "POST /login HTTP/1.1" 200 -
+2023-10-26 15:50:20,423 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 18:55:17 GMT
+
+
+2023-10-26 15:50:20,423 - root - INFO - Request Method: GET
+2023-10-26 15:50:20,423 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 15:50:20,423 - root - INFO - Request Data: b''
+2023-10-26 15:50:20,423 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 15:50:20] "GET /protected HTTP/1.1" 200 -
+2023-10-26 15:50:32,939 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 29
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 15:50:32,939 - root - INFO - Request Method: POST
+2023-10-26 15:50:32,939 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 15:50:32,939 - root - INFO - Request Data: b'{"username":"","password":""}'
+2023-10-26 15:50:32,939 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-10-26 15:50:32,945 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 15:50:32] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-10-26 15:50:46,413 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 15:50:46,413 - root - INFO - Request Method: POST
+2023-10-26 15:50:46,413 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 15:50:46,413 - root - INFO - Request Data: b'{"username":"V@gmail.com ","password":"V"}'
+2023-10-26 15:50:46,416 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com '}>
+2023-10-26 15:50:46,420 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 15:50:46] "POST /login HTTP/1.1" 200 -
+2023-10-26 15:50:46,503 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 20:50:20 GMT
+
+
+2023-10-26 15:50:46,505 - root - INFO - Request Method: GET
+2023-10-26 15:50:46,505 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 15:50:46,505 - root - INFO - Request Data: b''
+2023-10-26 15:50:46,507 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 15:50:46] "GET /protected HTTP/1.1" 200 -
+2023-10-26 16:21:40,898 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 16:21:40,899 - root - INFO - Request Method: POST
+2023-10-26 16:21:40,901 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 16:21:40,902 - root - INFO - Request Data: b'{"username":"A@gmail.com","password":"H"}'
+2023-10-26 16:21:40,903 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-10-26 16:21:40,923 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:21:40] "POST /login HTTP/1.1" 200 -
+2023-10-26 16:24:01,459 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 16:24:01,461 - root - INFO - Request Method: POST
+2023-10-26 16:24:01,461 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 16:24:01,462 - root - INFO - Request Data: b'{"username":"A@gmail.com","password":"H"}'
+2023-10-26 16:24:01,462 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'A@gmail.com'}>
+2023-10-26 16:24:01,469 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:24:01] "POST /login HTTP/1.1" 200 -
+2023-10-26 16:25:39,173 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 16:25:39,173 - root - INFO - Request Method: POST
+2023-10-26 16:25:39,175 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 16:25:39,175 - root - INFO - Request Data: b'{"username":"A@gmail.com","password":"H"}'
+2023-10-26 16:25:39,175 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'A@gmail.com'}>
+2023-10-26 16:25:39,184 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:25:39] "POST /login HTTP/1.1" 200 -
+2023-10-26 16:25:39,344 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 16:25:39,344 - root - INFO - Request Method: GET
+2023-10-26 16:25:39,344 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 16:25:39,344 - root - INFO - Request Data: b''
+2023-10-26 16:25:39,347 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:25:39] "GET /protected HTTP/1.1" 200 -
+2023-10-26 16:28:17,958 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 16:28:17,958 - root - INFO - Request Method: POST
+2023-10-26 16:28:17,958 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 16:28:17,959 - root - INFO - Request Data: b'{"username":"A@gmail.com","password":"H"}'
+2023-10-26 16:28:17,959 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'A@gmail.com'}>
+2023-10-26 16:28:17,966 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:28:17] "POST /login HTTP/1.1" 200 -
+2023-10-26 16:28:18,148 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 21:25:39 GMT
+
+
+2023-10-26 16:28:18,148 - root - INFO - Request Method: GET
+2023-10-26 16:28:18,148 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 16:28:18,148 - root - INFO - Request Data: b''
+2023-10-26 16:28:18,152 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:28:18] "GET /protected HTTP/1.1" 200 -
+2023-10-26 16:30:23,576 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 16:30:23,576 - root - INFO - Request Method: POST
+2023-10-26 16:30:23,576 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 16:30:23,577 - root - INFO - Request Data: b'{"username":"A@gmail.com","password":"H"}'
+2023-10-26 16:30:23,577 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'A@gmail.com'}>
+2023-10-26 16:30:23,580 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:30:23] "POST /login HTTP/1.1" 200 -
+2023-10-26 16:30:23,735 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 21:28:18 GMT
+
+
+2023-10-26 16:30:23,735 - root - INFO - Request Method: GET
+2023-10-26 16:30:23,736 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 16:30:23,736 - root - INFO - Request Data: b''
+2023-10-26 16:30:23,738 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:30:23] "GET /protected HTTP/1.1" 200 -
+2023-10-26 16:36:06,648 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 16:36:06,648 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 16:36:22,245 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 16:36:22,246 - root - INFO - Request Method: POST
+2023-10-26 16:36:22,246 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 16:36:22,246 - root - INFO - Request Data: b'{"username":"A@gmail.com","password":"H"}'
+2023-10-26 16:36:22,246 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'A@gmail.com'}>
+2023-10-26 16:36:22,251 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:36:22] "POST /login HTTP/1.1" 200 -
+2023-10-26 16:36:22,403 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 21:30:23 GMT
+
+
+2023-10-26 16:36:22,403 - root - INFO - Request Method: GET
+2023-10-26 16:36:22,403 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 16:36:22,403 - root - INFO - Request Data: b''
+2023-10-26 16:36:22,403 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=f38ccec4-bd6b-42e4-bfe9-fcd45dab339b
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 21:30:23 GMT
+
+
+2023-10-26 16:36:22,406 - werkzeug - INFO - 192.168.0.218 - - [26/Oct/2023 16:36:22] "GET /protected HTTP/1.1" 200 -
+2023-10-26 17:23:31,363 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 17:23:31,363 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 17:23:42,921 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 17:23:42,921 - root - INFO - Request Method: POST
+2023-10-26 17:23:42,921 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 17:23:42,922 - root - INFO - Request Data: b'{"username":"H@gmail.com ","password":"H"}'
+2023-10-26 17:23:42,922 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com '}>
+2023-10-26 17:23:42,930 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 17:23:42] "POST /login HTTP/1.1" 200 -
+2023-10-26 17:23:43,049 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 20:50:46 GMT
+
+
+2023-10-26 17:23:43,049 - root - INFO - Request Method: GET
+2023-10-26 17:23:43,050 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-10-26 17:23:43,050 - root - INFO - Request Data: b''
+2023-10-26 17:23:43,050 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Thu, 26 Oct 2023 20:50:46 GMT
+
+
+2023-10-26 17:23:43,052 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 17:23:43] "GET /protected HTTP/1.1" 200 -
+2023-10-26 17:26:39,781 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 2
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=7872b698-6df9-4207-867c-df299e3ba070
+User-Agent: okhttp/4.9.2
+
+
+2023-10-26 17:26:39,781 - root - INFO - Request Method: POST
+2023-10-26 17:26:39,781 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-10-26 17:26:39,781 - root - INFO - Request Data: b'{}'
+2023-10-26 17:26:39,781 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'H@gmail.com '}>
+2023-10-26 17:26:39,781 - main - ERROR - Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\env\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\main.py", line 77, in login
+    if handlejsonfile.authenticate(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\PycharmProjects\Trics_server\handlejsonfile.py", line 120, in authenticate
+    username = username.strip()
+               ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2023-10-26 17:26:39,842 - werkzeug - INFO - 192.168.0.151 - - [26/Oct/2023 17:26:39] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2023-10-26 18:13:27,362 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-10-26 18:13:27,363 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
