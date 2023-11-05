@@ -40,6 +40,26 @@ def initialize_database():
 # Initialize the database
 initialize_database()
 
+@app.route('/search_unames', methods=['POST'])
+def search_unames():
+    if 'user' in session:
+        data = request.get_json()
+        query = data.get('searchText')
+        posts = handledata.getunames(query)
+
+        return jsonify(posts)
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
+
+@app.route('/suggest_unames', methods=['POST'])
+def suggest_unames():
+    if 'user' in session:
+        username = session['user']
+        suggestions = handledata.get_uname_suggestions(username)
+        return jsonify(suggestions)
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
+
 
 @app.before_request
 def log_request_info():
@@ -83,20 +103,18 @@ def login():
 # Logout endpoint
 @app.route('/logout')
 def logout():
-    data = request.get_json()
-    username = data.get('username')
+    logging.info('loggingout Data: %s', request)
 
-    if 'user' in session and session['user'] == username:
+    if 'user' in session:
         session.pop('user', None)
-        return jsonify({"message": f"Logged out user: {username}"})
+        return jsonify({"message": f"Logout successful"})
     else:
-        return jsonify({"message": "Not logged in or username doesn't match"})
+        return jsonify({"message": "Logout Failed. Please try again."})
 
 @app.route('/signup', methods=['POST'])
 def signup():
 
     data = request.get_json()
-
     firstname = data.get("firstName")
     lastname = data.get("lastName")
     username = data.get("username")
