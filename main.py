@@ -34,6 +34,15 @@ def initialize_database():
             zipcode TEXT
         )
     ''')
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS friends (
+            username TEXT,
+            friendusername TEXT,
+            PRIMARY KEY (username, friendusername),
+            FOREIGN KEY (username) REFERENCES users(username),
+            FOREIGN KEY (friendusername) REFERENCES users(username)
+        )
+    ''')
     conn.commit()
     conn.close()
 
@@ -60,6 +69,39 @@ def suggest_unames():
     else:
         return jsonify({"message": "Unauthorized"}), 401
 
+@app.route('/get_user_data', methods=['POST'])
+def get_user_data():
+    if 'user' in session:
+        data = request.get_json()
+        username = data.get('username')
+        userdata = handledata.get_user_data(username)
+
+        return jsonify(userdata)
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
+
+
+@app.route('/connectusers', methods=['POST'])
+def connectusers():
+    if 'user' in session:
+        data = request.get_json()
+        friendusername = data.get('username')
+        username = session['user']
+        handledata.add_friend_connection(username, friendusername)
+        return jsonify({"message": "Friend connection added successfully"}), 200
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
+
+@app.route('/isfriend', methods=['POST'])
+def isfriend():
+    if 'user' in session:
+        data = request.get_json()
+        friendusername = data.get('username')
+        username = session['user']
+        value = handledata.isfriend(username, friendusername)
+        return jsonify({"isfriend": {value}}), 200
+    else:
+        return jsonify({"message": "Unauthorized", "isfriend": "exception"}), 401
 
 @app.before_request
 def log_request_info():
