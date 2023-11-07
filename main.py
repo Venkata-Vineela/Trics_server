@@ -80,6 +80,15 @@ def get_user_data():
     else:
         return jsonify({"message": "Unauthorized"}), 401
 
+@app.route('/get_userprofile_data', methods=['POST'])
+def get_userprofile_data():
+    if 'user' in session:
+        username = session['user']
+        userdata = handledata.get_userprofile_data(username)
+
+        return jsonify(userdata)
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
 
 @app.route('/connectusers', methods=['POST'])
 def connectusers():
@@ -87,10 +96,22 @@ def connectusers():
         data = request.get_json()
         friendusername = data.get('username')
         username = session['user']
-        handledata.add_friend_connection(username, friendusername)
-        return jsonify({"message": "Friend connection added successfully"}), 200
+        value = handledata.add_friend_connection(username, friendusername)
+        return jsonify(value), 200
     else:
         return jsonify({"message": "Unauthorized"}), 401
+
+@app.route('/removefriend', methods=['POST'])
+def removefriend():
+    if 'user' in session:
+        data = request.get_json()
+        friendusername = data.get('username')
+        username = session['user']
+        value = handledata.remove_friend_connection(username, friendusername)
+        return  jsonify(value), 200
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
+
 
 @app.route('/isfriend', methods=['POST'])
 def isfriend():
@@ -99,7 +120,7 @@ def isfriend():
         friendusername = data.get('username')
         username = session['user']
         value = handledata.isfriend(username, friendusername)
-        return jsonify({"isfriend": {value}}), 200
+        return jsonify(value), 200
     else:
         return jsonify({"message": "Unauthorized", "isfriend": "exception"}), 401
 

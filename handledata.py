@@ -32,6 +32,7 @@ def check_user(username):
 
 
 def authenticate(username, password):
+    username = username.strip()
     conn = sqlite3.connect('user_data.db')
     cursor = conn.cursor()
 
@@ -68,6 +69,16 @@ def get_user_data(username):
 
     return user_data;
 
+def get_userprofile_data(username):
+    username = username.strip()
+    conn = sqlite3.connect('user_data.db')
+    cursor = conn.cursor()
+    cursor.execute('SELECT firstname, lastname, organization, street_address, city, state, zipcode FROM users WHERE username = ?', (username,))
+    user_data = [{'firstname': row[0], 'lastname': row[1], 'organization': row[2], 'street_address': row[3], 'city': row[4], 'state': row[5], 'zipcode': row[6]} for row in cursor.fetchall()]
+    conn.close()
+
+    return user_data;
+
 
 def get_uname_suggestions(username):
     username = username.strip()
@@ -99,10 +110,37 @@ def add_friend_connection(username, friendusername):
     cursor = conn.cursor()
 
     # Insert the friend connection into the 'friends' table
-    cursor.execute("INSERT INTO friends (username, friendusername) VALUES (?, ?)", (username, friendusername))
+    result = cursor.execute("INSERT INTO friends (username, friendusername) VALUES (?, ?)", (username, friendusername))
 
-    conn.commit()
-    conn.close()
+    if result.rowcount > 0:
+        conn.commit()
+        conn.close()
+        # Return True to indicate a successful insertion
+        return True
+    else:
+        # Return False to indicate insertion failed
+        conn.rollback()
+        conn.close()
+        return False
+
+def remove_friend_connection(username, friendusername):
+    conn = sqlite3.connect('user_data.db')
+    cursor = conn.cursor()
+
+    # Delete the friend connection from the 'friends' table
+    result = cursor.execute("DELETE FROM friends WHERE (username = ? AND friendusername = ?) OR (username = ? AND friendusername = ?)",
+                            (username, friendusername, friendusername, username))
+
+    if result.rowcount > 0:
+        conn.commit()
+        conn.close()
+        # Return True to indicate a successful removal
+        return True
+    else:
+        # Return False to indicate removal failed
+        conn.rollback()
+        conn.close()
+        return False
 
 
 def isfriend(username, friendusername):
