@@ -104,13 +104,58 @@ def get_uname_suggestions(username):
     conn.close()
     return suggestions
 
+def get_requests(username):
+    username = username.strip()
+    conn = sqlite3.connect('user_data.db')
+    cursor = conn.cursor()
+    cursor.execute('SELECT username FROM friendrequests WHERE friendusername = ?', (username,))
+    row = cursor.fetchone()
+
+    if row:
+        username = row[0]
+
+        # Query for suggestions
+        cursor.execute('''SELECT username, firstname FROM users WHERE username = ?''', (username,))
+
+
+        requests = [{'username': row[0], 'firstname': row[1]} for row in cursor.fetchall()]
+
+    conn.close()
+    return requests
+
+
 
 def add_friend_connection(username, friendusername):
+    username = username.strip()
+    friendusername = friendusername.strip()
     conn = sqlite3.connect('user_data.db')
     cursor = conn.cursor()
 
     # Insert the friend connection into the 'friends' table
     result = cursor.execute("INSERT INTO friends (username, friendusername) VALUES (?, ?)", (username, friendusername))
+
+    if result.rowcount > 0:
+        conn.commit()
+        cursor.execute("DELETE FROM friendrequests WHERE username = ? AND friendusername = ?", (friendusername, username))
+        conn.commit()
+
+        conn.close()
+        # Return True to indicate a successful insertion
+        return True
+    else:
+        # Return False to indicate insertion failed
+        conn.rollback()
+        conn.close()
+        return False
+
+def add_friend_request(username, friendusername):
+    username = username.strip()
+    friendusername = friendusername.strip()
+    conn = sqlite3.connect('user_data.db')
+    cursor = conn.cursor()
+
+    # Insert the friend connection into the 'friends' table
+    result = cursor.execute("INSERT INTO friendrequests (username, friendusername) VALUES (?, ?)", (username, friendusername))
 
     if result.rowcount > 0:
         conn.commit()
@@ -124,6 +169,8 @@ def add_friend_connection(username, friendusername):
         return False
 
 def remove_friend_connection(username, friendusername):
+    username = username.strip()
+    friendusername = friendusername.strip()
     conn = sqlite3.connect('user_data.db')
     cursor = conn.cursor()
 
@@ -143,16 +190,31 @@ def remove_friend_connection(username, friendusername):
         return False
 
 
-def isfriend(username, friendusername):
+def friendstatus(username, friendusername):
+    username = username.strip()
+    friendusername = friendusername.strip()
     conn = sqlite3.connect('user_data.db')
     cursor = conn.cursor()
 
-    # Insert the friend connection into the 'friends' table
-    cursor.execute(
-        "SELECT * FROM friends WHERE (username = ? AND friendusername = ?) OR (username = ? AND friendusername = ?)",
-        (username, friendusername, friendusername, username))
-    result = cursor.fetchone()
+    # Check if they are friends
+    cursor.execute("""SELECT * FROM friends 
+                      WHERE (username = ? AND friendusername = ?)""",
+                   (username, friendusername))
 
-    conn.commit()
+    result1 = cursor.fetchone()
+    isfriend = result1 is not None
+
+    # Check if a friend request has been sent
+    cursor.execute("SELECT * FROM friendrequests WHERE (username = ? AND friendusername = ?) ", (username, friendusername))
+    result2 = cursor.fetchone()
+    isrequested = result2 is not None
+
+    status = {
+        'isfriend': isfriend,
+        'isrequested': isrequested
+    }
+
     conn.close()
-    return result is not None
+
+    return status
+
