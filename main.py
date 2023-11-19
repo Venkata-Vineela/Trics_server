@@ -17,7 +17,7 @@ Session(app)
 
 # Define the database initialize function
 def initialize_database():
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../Data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS users (

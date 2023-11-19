@@ -8,7 +8,7 @@ def add_user(firstname, lastname, username, password, phone, organization, stree
     Add a user to the user data.
     """
 
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('''
             INSERT INTO users (
@@ -23,7 +23,7 @@ def check_user(username):
     Check if the provided username and password are valid.
     """
 
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('SELECT username FROM users WHERE username = ?', (username,))
     user = cursor.fetchone()
@@ -33,7 +33,7 @@ def check_user(username):
 
 def authenticate(username, password):
     username = username.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
 
     # Check if the provided username and password match a user record in the database
@@ -47,7 +47,7 @@ def authenticate(username, password):
 
 
 def getunames(query):
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('SELECT username, firstname FROM users WHERE firstname LIKE ? LIMIT 4', ('%' + query + '%',))
     # suggested_usernames = [row[0] for row in cursor.fetchall()]
@@ -61,7 +61,7 @@ def getunames(query):
 
 def get_user_data(username):
     username = username.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('SELECT firstname, lastname, organization FROM users WHERE username = ?', (username,))
     user_data = [{'firstname': row[0], 'lastname': row[1], 'organization': row[2]} for row in cursor.fetchall()]
@@ -71,7 +71,7 @@ def get_user_data(username):
 
 def get_userprofile_data(username):
     username = username.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('SELECT firstname, lastname, organization, street_address, city, state, zipcode FROM users WHERE username = ?', (username,))
     user_data = [{'firstname': row[0], 'lastname': row[1], 'organization': row[2], 'street_address': row[3], 'city': row[4], 'state': row[5], 'zipcode': row[6]} for row in cursor.fetchall()]
@@ -82,7 +82,7 @@ def get_userprofile_data(username):
 
 def get_uname_suggestions(username):
     username = username.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('SELECT organization,zipcode FROM users WHERE username = ?', (username,))
     row = cursor.fetchone()
@@ -106,7 +106,7 @@ def get_uname_suggestions(username):
 
 def get_requests(username):
     username = username.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('SELECT username FROM friendrequests WHERE friendusername = ?', (username,))
     row = cursor.fetchone()
@@ -128,7 +128,7 @@ def get_requests(username):
 def add_friend_connection(username, friendusername):
     username = username.strip()
     friendusername = friendusername.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
 
     # Insert the friend connection into the 'friends' table
@@ -151,7 +151,7 @@ def add_friend_connection(username, friendusername):
 def add_friend_request(username, friendusername):
     username = username.strip()
     friendusername = friendusername.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
 
     # Insert the friend connection into the 'friends' table
@@ -171,7 +171,7 @@ def add_friend_request(username, friendusername):
 def remove_friend_connection(username, friendusername):
     username = username.strip()
     friendusername = friendusername.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
 
     # Delete the friend connection from the 'friends' table
@@ -193,7 +193,7 @@ def remove_friend_connection(username, friendusername):
 def friendstatus(username, friendusername):
     username = username.strip()
     friendusername = friendusername.strip()
-    conn = sqlite3.connect('user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
 
     # Check if they are friends
