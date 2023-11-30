@@ -1,8 +1,6 @@
 
 import sqlite3
 
-
-
 def add_user(firstname, lastname, username, password, phone, organization, street_address, city, state, zipcode):
     """
     Add a user to the user data.
