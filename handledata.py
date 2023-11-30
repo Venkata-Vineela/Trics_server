@@ -216,5 +216,52 @@ def friendstatus(username, friendusername):
 
     conn.close()
 
-    return status
+    return
 
+def getpostnumber(username):
+    conn = sqlite3.connect('../data/user_data.db')
+    cursor = conn.cursor()
+
+    # Count the number of posts for the given username
+    post_count = cursor.execute('SELECT COUNT(*) FROM posts WHERE username = ?', (username,))
+    result = cursor.fetchone()[0]
+    conn.close()
+    postcount = result + 1
+    return postcount
+
+def addpost(username,postnumber, text, file_data, file_name, file_type):
+    conn = sqlite3.connect('../data/user_data.db')
+    cursor = conn.cursor()
+    result = cursor.execute('INSERT INTO posts (username, postnumber, text, file_data, file_name, file_type) VALUES (?, ?, ?, ?, ?, ?)',
+                   (username, postnumber, text, file_data, file_name, file_type))
+
+    if result.rowcount > 0:
+        conn.commit()
+        conn.close()
+        # Return True to indicate a successful insertion
+        return True
+    else:
+        # Return False to indicate insertion failed
+        conn.rollback()
+        conn.close()
+        return False
+def getposts(username):
+    username = username.strip()
+    conn = sqlite3.connect('../data/user_data.db')
+    cursor = conn.cursor()
+    cursor.execute('SELECT postnumber, text, file_data, file_name, file_type FROM posts WHERE username = ?', (username,))
+    posts = []
+
+    for row in cursor:
+        post = {
+            'postnumber': row[0],
+            'text': row[1],
+            'file_data': row[2],
+            'file_name': row[3],
+            'file_type': row[4]
+        }
+        posts.append(post)
+
+    conn.close()
+
+    return posts

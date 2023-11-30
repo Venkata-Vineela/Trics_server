@@ -1,3 +1,4 @@
+import base64
 import logging
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS
@@ -34,7 +35,6 @@ def initialize_database():
             zipcode TEXT
         )
     ''')
-
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS friends (
             username TEXT,
@@ -45,8 +45,6 @@ def initialize_database():
         )
     ''')
 
-
-
     cursor.execute('''
             CREATE TABLE IF NOT EXISTS friendrequests (
                 username TEXT,
@@ -56,12 +54,43 @@ def initialize_database():
                 FOREIGN KEY (friendusername) REFERENCES users(username)
             )
         ''')
+
+    cursor.execute('''
+            CREATE TABLE IF NOT EXISTS posts (
+                username TEXT,
+                postnumber INT,
+                text TEXT,
+                file_data TEXT,
+                file_name TEXT,
+                file_type TEXT,
+                PRIMARY KEY (username,postnumber),
+                FOREIGN KEY (username) REFERENCES users(username)
+            )
+        ''')
+
+
     conn.commit()
     conn.close()
 
 # Initialize the database
 initialize_database()
 
+
+@app.route('/add_post', methods=['POST'])
+def add_post():
+    if 'user' in session:
+        username = session['user']
+        data = request.get_json()
+        text = data.get('text')
+        filedata = data.get('filedata')
+        filename = data.get('filename')
+        filetype = data.get('filetype')
+        postnumber = handledata.getpostnumber(username);
+
+        if handledata.addpost(username, postnumber, text, filedata, filename, filetype):
+            return jsonify({"message": "Post added successfully"}), 200
+        else:
+            return jsonify({"message": "Error Posting"}), 400
 @app.route('/search_unames', methods=['POST'])
 def search_unames():
     if 'user' in session:
@@ -103,6 +132,7 @@ def get_user_data():
     else:
         return jsonify({"message": "Unauthorized"}), 401
 
+
 @app.route('/get_userprofile_data', methods=['POST'])
 def get_userprofile_data():
     if 'user' in session:
@@ -113,6 +143,15 @@ def get_userprofile_data():
     else:
         return jsonify({"message": "Unauthorized"}), 401
 
+@app.route('/get_user_posts', methods=['POST'])
+def get_user_posts():
+    if 'user' in session:
+        username = session['user']
+        postdata = handledata.getposts(username)
+
+        return postdata
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
 
 @app.route('/requestfriend', methods=['POST'])
 def requestfriend():
