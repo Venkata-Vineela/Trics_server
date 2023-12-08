@@ -172,6 +172,7 @@ def acceptfriend():
         friendusername = data.get('username')
         username = session['user']
         value = handledata.add_friend_connection(username, friendusername)
+        print(value)
         return jsonify(value), 200
     else:
         return jsonify({"message": "Unauthorized"}), 401

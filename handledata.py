@@ -131,8 +131,8 @@ def add_friend_connection(username, friendusername):
 
     # Insert the friend connection into the 'friends' table
     result = cursor.execute("INSERT INTO friends (username, friendusername) VALUES (?, ?)", (username, friendusername))
-
-    if result.rowcount > 0:
+    print(result.lastrowid)
+    if result.lastrowid > 0:
         conn.commit()
         cursor.execute("DELETE FROM friendrequests WHERE username = ? AND friendusername = ?", (friendusername, username))
         conn.commit()
@@ -214,7 +214,7 @@ def friendstatus(username, friendusername):
 
     conn.close()
 
-    return
+    return status
 
 def getpostnumber(username):
     conn = sqlite3.connect('../data/user_data.db')
