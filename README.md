@@ -5,6 +5,7 @@ git clone https://github.com/Venkata-Vineela/Trics_server
 Create virtual environment: py -m venv .venv
 
 Activate virtual environment: .venv\Scripts\activate  
+source .venv/bin/activate in ourcloud
 
 Install dependencies: py -m pip install -r requirements.txt
 
