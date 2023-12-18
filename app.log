@@ -6342,3 +6342,2640 @@ User-Agent: okhttp/4.9.2
 2023-12-08 09:09:54,709 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
 2023-12-08 09:09:54,709 - root - INFO - Request Data: b''
 2023-12-08 09:09:54,722 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:09:54] "POST /displayrequests HTTP/1.1" 200 -
+2023-12-08 09:14:11,018 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:14:11,018 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:14:11,018 - root - INFO - Request Method: POST
+2023-12-08 09:14:11,018 - root - INFO - Request Method: POST
+2023-12-08 09:14:11,018 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-08 09:14:11,018 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-08 09:14:11,018 - root - INFO - Request Data: b''
+2023-12-08 09:14:11,018 - root - INFO - Request Data: b''
+2023-12-08 09:14:11,036 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:14:11] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-08 09:14:11,508 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:14:11] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-08 09:14:26,386 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:14:26,386 - root - INFO - Request Method: POST
+2023-12-08 09:14:26,386 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-08 09:14:26,386 - root - INFO - Request Data: b''
+2023-12-08 09:14:26,400 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:14:26] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-08 09:14:26,489 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:14:26,489 - root - INFO - Request Method: POST
+2023-12-08 09:14:26,489 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-08 09:14:26,489 - root - INFO - Request Data: b''
+2023-12-08 09:14:26,498 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:14:26] "POST /displayrequests HTTP/1.1" 200 -
+2023-12-08 09:14:58,543 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:14:58,543 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:14:58,543 - root - INFO - Request Method: POST
+2023-12-08 09:14:58,543 - root - INFO - Request Method: POST
+2023-12-08 09:14:58,543 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-08 09:14:58,543 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-08 09:14:58,543 - root - INFO - Request Data: b''
+2023-12-08 09:14:58,543 - root - INFO - Request Data: b''
+2023-12-08 09:14:58,561 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:14:58] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-08 09:14:58,672 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:14:58] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-08 09:24:48,646 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:24:48,646 - root - INFO - Request Method: POST
+2023-12-08 09:24:48,646 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-08 09:24:48,646 - root - INFO - Request Data: b'{"username":"V@gmail.com ","password":"V"}'
+2023-12-08 09:24:48,653 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com'}>
+2023-12-08 09:24:48,659 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:24:48] "POST /login HTTP/1.1" 200 -
+2023-12-08 09:24:48,766 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:09:50 GMT
+
+
+2023-12-08 09:24:48,766 - root - INFO - Request Method: GET
+2023-12-08 09:24:48,766 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-08 09:24:48,766 - root - INFO - Request Data: b''
+2023-12-08 09:24:48,766 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:09:50 GMT
+
+
+2023-12-08 09:24:48,766 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:24:48] "GET /protected HTTP/1.1" 200 -
+2023-12-08 09:25:18,945 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:25:18,945 - root - INFO - Request Method: POST
+2023-12-08 09:25:18,945 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-08 09:25:18,945 - root - INFO - Request Data: b''
+2023-12-08 09:25:18,960 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:25:18] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-08 09:25:19,055 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:25:19,055 - root - INFO - Request Method: POST
+2023-12-08 09:25:19,055 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-08 09:25:19,055 - root - INFO - Request Data: b''
+2023-12-08 09:25:19,055 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:25:19] "POST /displayrequests HTTP/1.1" 200 -
+2023-12-08 09:25:24,822 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:25:24,822 - root - INFO - Request Method: POST
+2023-12-08 09:25:24,822 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-08 09:25:24,822 - root - INFO - Request Data: b'{"username":"J@gmail.com"}'
+2023-12-08 09:25:24,822 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:25:24,822 - root - INFO - Request Method: POST
+2023-12-08 09:25:24,822 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-08 09:25:24,822 - root - INFO - Request Data: b'{"username":"J@gmail.com"}'
+2023-12-08 09:25:24,838 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:25:24] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-08 09:25:24,839 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:25:24] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-08 09:25:34,534 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:25:34,534 - root - INFO - Request Method: POST
+2023-12-08 09:25:34,534 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-08 09:25:34,534 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:25:34,534 - root - INFO - Request Data: b''
+2023-12-08 09:25:34,534 - root - INFO - Request Method: POST
+2023-12-08 09:25:34,534 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-08 09:25:34,534 - root - INFO - Request Data: b''
+2023-12-08 09:25:34,540 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:25:34] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-08 09:25:35,232 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:25:35] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-08 09:26:56,070 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:26:56,070 - root - INFO - Request Method: POST
+2023-12-08 09:26:56,070 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-08 09:26:56,070 - root - INFO - Request Data: b''
+2023-12-08 09:26:56,080 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:26:56] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-08 09:26:56,144 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:26:56,160 - root - INFO - Request Method: POST
+2023-12-08 09:26:56,160 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-08 09:26:56,160 - root - INFO - Request Data: b''
+2023-12-08 09:26:56,164 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:26:56] "POST /displayrequests HTTP/1.1" 200 -
+2023-12-08 09:27:05,742 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:27:05,742 - root - INFO - Request Method: POST
+2023-12-08 09:27:05,742 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-08 09:27:05,742 - root - INFO - Request Data: b''
+2023-12-08 09:27:05,760 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:27:05,760 - root - INFO - Request Method: POST
+2023-12-08 09:27:05,760 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-08 09:27:05,760 - root - INFO - Request Data: b''
+2023-12-08 09:27:05,760 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:27:05] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-08 09:27:06,294 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:27:06] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-08 09:29:03,449 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:29:03,449 - root - INFO - Request Method: POST
+2023-12-08 09:29:03,449 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-08 09:29:03,449 - root - INFO - Request Data: b''
+2023-12-08 09:29:03,465 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:03] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-08 09:29:03,559 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:29:03,559 - root - INFO - Request Method: POST
+2023-12-08 09:29:03,559 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-08 09:29:03,559 - root - INFO - Request Data: b''
+2023-12-08 09:29:03,559 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:03] "POST /displayrequests HTTP/1.1" 200 -
+2023-12-08 09:29:39,485 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:29:39,500 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:29:39,500 - root - INFO - Request Method: POST
+2023-12-08 09:29:39,500 - root - INFO - Request Method: POST
+2023-12-08 09:29:39,500 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-08 09:29:39,500 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-08 09:29:39,500 - root - INFO - Request Data: b''
+2023-12-08 09:29:39,500 - root - INFO - Request Data: b''
+2023-12-08 09:29:39,507 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:39] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-08 09:29:40,178 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:40] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-08 09:29:41,808 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 04 Dec 2023 16:02:44 GMT
+
+
+2023-12-08 09:29:41,808 - root - INFO - Request Method: GET
+2023-12-08 09:29:41,808 - root - INFO - Request URL: http://192.168.0.188:5000/logout
+2023-12-08 09:29:41,808 - root - INFO - Request Data: b''
+2023-12-08 09:29:41,808 - root - INFO - loggingout Data: <Request 'http://192.168.0.188:5000/logout' [GET]>
+2023-12-08 09:29:41,824 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:41] "GET /logout HTTP/1.1" 200 -
+2023-12-08 09:29:43,611 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:29:43,611 - root - INFO - Request Method: POST
+2023-12-08 09:29:43,611 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-08 09:29:43,611 - root - INFO - Request Data: b'{"username":"V@gmail.com ","password":"V"}'
+2023-12-08 09:29:43,612 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-12-08 09:29:43,617 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:43] "POST /login HTTP/1.1" 200 -
+2023-12-08 09:29:43,662 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:24:48 GMT
+
+
+2023-12-08 09:29:43,662 - root - INFO - Request Method: GET
+2023-12-08 09:29:43,662 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-08 09:29:43,662 - root - INFO - Request Data: b''
+2023-12-08 09:29:43,662 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:24:48 GMT
+
+
+2023-12-08 09:29:43,678 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:43] "GET /protected HTTP/1.1" 200 -
+2023-12-08 09:29:46,009 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:29:46,009 - root - INFO - Request Method: POST
+2023-12-08 09:29:46,009 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-08 09:29:46,009 - root - INFO - Request Data: b''
+2023-12-08 09:29:46,017 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:46] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-08 09:29:46,094 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:29:46,094 - root - INFO - Request Method: POST
+2023-12-08 09:29:46,094 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-08 09:29:46,094 - root - INFO - Request Data: b''
+2023-12-08 09:29:46,106 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:29:46] "POST /displayrequests HTTP/1.1" 200 -
+2023-12-08 09:30:34,670 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:30:34,686 - root - INFO - Request Method: POST
+2023-12-08 09:30:34,686 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-08 09:30:34,686 - root - INFO - Request Data: b'{"username":"V@gmail.com ","password":"V"}'
+2023-12-08 09:30:34,686 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com '}>
+2023-12-08 09:30:34,686 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:30:34] "POST /login HTTP/1.1" 200 -
+2023-12-08 09:30:34,750 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:29:43 GMT
+
+
+2023-12-08 09:30:34,750 - root - INFO - Request Method: GET
+2023-12-08 09:30:34,765 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-08 09:30:34,765 - root - INFO - Request Data: b''
+2023-12-08 09:30:34,765 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:29:43 GMT
+
+
+2023-12-08 09:30:34,769 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:30:34] "GET /protected HTTP/1.1" 200 -
+2023-12-08 09:30:36,934 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:30:36,934 - root - INFO - Request Method: POST
+2023-12-08 09:30:36,934 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-08 09:30:36,934 - root - INFO - Request Data: b''
+2023-12-08 09:30:36,941 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:30:36] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-08 09:30:37,034 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:30:37,034 - root - INFO - Request Method: POST
+2023-12-08 09:30:37,034 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-08 09:30:37,034 - root - INFO - Request Data: b''
+2023-12-08 09:30:37,048 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:30:37] "POST /displayrequests HTTP/1.1" 200 -
+2023-12-08 09:31:07,652 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:31:07,652 - root - INFO - Request Method: POST
+2023-12-08 09:31:07,652 - root - INFO - Request URL: http://192.168.0.188:5000/acceptfriend
+2023-12-08 09:31:07,652 - root - INFO - Request Data: b'{"username":"S@gmail.com"}'
+2023-12-08 09:31:07,686 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:31:07] "POST /acceptfriend HTTP/1.1" 200 -
+2023-12-08 09:31:11,449 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:31:11,449 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:31:11,449 - root - INFO - Request Method: POST
+2023-12-08 09:31:11,449 - root - INFO - Request Method: POST
+2023-12-08 09:31:11,449 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-08 09:31:11,449 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-08 09:31:11,449 - root - INFO - Request Data: b''
+2023-12-08 09:31:11,449 - root - INFO - Request Data: b''
+2023-12-08 09:31:11,485 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:31:11] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-08 09:31:11,863 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:31:11] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-08 09:31:15,208 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:29:41 GMT
+
+
+2023-12-08 09:31:15,208 - root - INFO - Request Method: GET
+2023-12-08 09:31:15,208 - root - INFO - Request URL: http://192.168.0.188:5000/logout
+2023-12-08 09:31:15,208 - root - INFO - Request Data: b''
+2023-12-08 09:31:15,208 - root - INFO - loggingout Data: <Request 'http://192.168.0.188:5000/logout' [GET]>
+2023-12-08 09:31:15,220 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:31:15] "GET /logout HTTP/1.1" 200 -
+2023-12-08 09:31:22,620 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-08 09:31:22,620 - root - INFO - Request Method: POST
+2023-12-08 09:31:22,620 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-08 09:31:22,620 - root - INFO - Request Data: b'{"username":"S@gmail.com ","password":"S"}'
+2023-12-08 09:31:22,620 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-12-08 09:31:22,624 - werkzeug - INFO - 192.168.0.20 - - [08/Dec/2023 09:31:22] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-12-17 17:02:07,407 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 17:02:07,407 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:29:17,477 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:29:17,482 - root - INFO - Request Method: POST
+2023-12-17 18:29:17,482 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:29:17,483 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"469610"}'
+2023-12-17 18:29:17,502 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:29:17] "[33mPOST /sendverificationEmail HTTP/1.1[0m" 404 -
+2023-12-17 18:29:37,985 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:29:37,986 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:29:40,386 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:29:40,387 - root - INFO - Request Method: POST
+2023-12-17 18:29:40,387 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:29:40,387 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"505183"}'
+2023-12-17 18:29:40,392 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:29:40] "[33mPOST /sendverificationEmail HTTP/1.1[0m" 404 -
+2023-12-17 18:30:05,726 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:30:05,726 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:30:07,679 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:30:07,679 - root - INFO - Request Method: POST
+2023-12-17 18:30:07,679 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:30:07,680 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"343105"}'
+2023-12-17 18:30:07,684 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:30:07] "[33mPOST /sendverificationEmail HTTP/1.1[0m" 404 -
+2023-12-17 18:30:22,691 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:30:22,691 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:30:28,660 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:30:28,660 - root - INFO - Request Method: POST
+2023-12-17 18:30:28,675 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:30:28,675 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"975918"}'
+2023-12-17 18:30:28,675 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:30:28] "[33mPOST /sendverificationEmail HTTP/1.1[0m" 404 -
+2023-12-17 18:30:50,308 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:30:50,308 - root - INFO - Request Method: POST
+2023-12-17 18:30:50,309 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:30:50,309 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"934314"}'
+2023-12-17 18:30:50,313 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:30:50] "[33mPOST /sendverificationEmail HTTP/1.1[0m" 404 -
+2023-12-17 18:31:27,978 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:31:27,978 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:31:33,406 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:31:33,406 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:31:43,079 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:31:43,088 - root - INFO - Request Method: POST
+2023-12-17 18:31:43,088 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:31:43,088 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"726946"}'
+2023-12-17 18:31:43,092 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:31:43] "[33mPOST /sendverificationEmail HTTP/1.1[0m" 404 -
+2023-12-17 18:31:55,436 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 2
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:31:55,436 - root - INFO - Request Method: POST
+2023-12-17 18:31:55,436 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-17 18:31:55,436 - root - INFO - Request Data: b'{}'
+2023-12-17 18:31:55,436 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-12-17 18:31:55,436 - main - ERROR - Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 239, in login
+    if handledata.authenticate(username, password):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 33, in authenticate
+    username = username.strip()
+               ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2023-12-17 18:31:55,515 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:31:55] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2023-12-17 18:32:49,770 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:32:49,770 - root - INFO - Request Method: POST
+2023-12-17 18:32:49,770 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:32:49,770 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"685371"}'
+2023-12-17 18:32:49,770 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:32:49] "[33mPOST /sendverificationEmail HTTP/1.1[0m" 404 -
+2023-12-17 18:33:50,702 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 205
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:33:50,702 - root - INFO - Request Method: POST
+2023-12-17 18:33:50,702 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 18:33:50,717 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"Vineela","firstName":"Vineela","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 18:34:37,447 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:34:37,447 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:34:48,485 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 205
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:34:48,485 - root - INFO - Request Method: POST
+2023-12-17 18:34:48,501 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 18:34:48,501 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"Vineela","firstName":"Vineela","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 18:35:31,645 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:35:31,645 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:35:43,265 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 205
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:35:43,265 - root - INFO - Request Method: POST
+2023-12-17 18:35:43,268 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 18:35:43,269 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"Vineela","firstName":"Vineela","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 18:36:07,940 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:36:07,940 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:36:08,794 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:36:08,794 - root - INFO - Request Method: POST
+2023-12-17 18:36:08,794 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:36:08,794 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"666670"}'
+2023-12-17 18:37:02,560 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:37:02,560 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:37:03,567 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:37:03,567 - root - INFO - Request Method: POST
+2023-12-17 18:37:03,567 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:37:03,567 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"346248"}'
+2023-12-17 18:47:39,976 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:47:39,976 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:47:42,389 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:47:42,390 - root - INFO - Request Method: POST
+2023-12-17 18:47:42,390 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:47:42,391 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"567593"}'
+2023-12-17 18:48:01,641 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:48:01,641 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:48:06,675 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:48:06,675 - root - INFO - Request Method: POST
+2023-12-17 18:48:06,675 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:48:06,675 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"436065"}'
+2023-12-17 18:49:12,672 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:49:12] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 18:49:26,584 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:49:26,584 - root - INFO - Request Method: POST
+2023-12-17 18:49:26,584 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:49:26,584 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"308065"}'
+2023-12-17 18:49:35,230 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 18:49:35,230 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 18:49:37,934 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:49:37,934 - root - INFO - Request Method: POST
+2023-12-17 18:49:37,935 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:49:37,935 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"942237"}'
+2023-12-17 18:49:38,838 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:49:38] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 18:49:39,077 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:49:39,077 - root - INFO - Request Method: POST
+2023-12-17 18:49:39,077 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:49:39,077 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"901011"}'
+2023-12-17 18:49:39,784 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:49:39] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 18:49:53,049 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:49:53,049 - root - INFO - Request Method: POST
+2023-12-17 18:49:53,050 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:49:53,050 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"475625"}'
+2023-12-17 18:49:53,781 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:49:53] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 18:50:42,508 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:50:42,508 - root - INFO - Request Method: POST
+2023-12-17 18:50:42,508 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:50:42,508 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"316853"}'
+2023-12-17 18:50:43,185 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:50:43] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 18:50:43,222 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:50:43,222 - root - INFO - Request Method: POST
+2023-12-17 18:50:43,222 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:50:43,222 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"445126"}'
+2023-12-17 18:50:43,866 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:50:43] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 18:51:17,306 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:51:17,306 - root - INFO - Request Method: POST
+2023-12-17 18:51:17,307 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:51:17,307 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"299068"}'
+2023-12-17 18:51:18,062 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:51:18] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 18:54:27,159 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 18:54:27,159 - root - INFO - Request Method: POST
+2023-12-17 18:54:27,159 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 18:54:27,159 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"502847"}'
+2023-12-17 18:54:28,129 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 18:54:28] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:10:52,568 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:10:52,568 - root - INFO - Request Method: POST
+2023-12-17 19:10:52,568 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:10:52,568 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"347387"}'
+2023-12-17 19:10:53,871 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:10:53] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:12:02,453 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 199
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:12:02,453 - root - INFO - Request Method: POST
+2023-12-17 19:12:02,455 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 19:12:02,455 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"Vineela","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 19:12:02,470 - root - INFO - firstname is: Vineela, lastname: , phone: , organization: Public Works and Engineering
+2023-12-17 19:12:02,470 - root - INFO - , street: , city: , state: , zipcode: 
+2023-12-17 19:12:02,470 - root - INFO - username in signup : kanamarlapudi.usedu1@gmail.com
+2023-12-17 19:12:02,470 - root - INFO - password fetched from data: V
+2023-12-17 19:12:02,474 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:12:02] "POST /signup HTTP/1.1" 200 -
+2023-12-17 19:12:31,639 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 199
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:12:31,641 - root - INFO - Request Method: POST
+2023-12-17 19:12:31,641 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 19:12:31,641 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"Vineela","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 19:12:31,644 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:12:31] "POST /signup HTTP/1.1" 200 -
+2023-12-17 19:12:38,322 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 199
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:12:38,322 - root - INFO - Request Method: POST
+2023-12-17 19:12:38,323 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 19:12:38,323 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"Vineela","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 19:12:38,325 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:12:38] "POST /signup HTTP/1.1" 200 -
+2023-12-17 19:12:48,418 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 199
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:12:48,418 - root - INFO - Request Method: POST
+2023-12-17 19:12:48,419 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 19:12:48,419 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"Vineela","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 19:12:48,422 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:12:48] "POST /signup HTTP/1.1" 200 -
+2023-12-17 19:13:15,712 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 199
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:13:15,712 - root - INFO - Request Method: POST
+2023-12-17 19:13:15,713 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 19:13:15,713 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"Vineela","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 19:13:15,716 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:13:15] "POST /signup HTTP/1.1" 200 -
+2023-12-17 19:20:47,415 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:20:47,415 - root - INFO - Request Method: POST
+2023-12-17 19:20:47,415 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:20:47,415 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"492478"}'
+2023-12-17 19:20:48,152 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:20:48] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:20:48,187 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:20:48,187 - root - INFO - Request Method: POST
+2023-12-17 19:20:48,187 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:20:48,187 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"405661"}'
+2023-12-17 19:20:48,873 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:20:48] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:21:50,571 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:21:50,571 - root - INFO - Request Method: POST
+2023-12-17 19:21:50,572 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:21:50,572 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"817424"}'
+2023-12-17 19:21:51,441 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:21:51] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:22:05,092 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:22:05,092 - root - INFO - Request Method: POST
+2023-12-17 19:22:05,093 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:22:05,093 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"297396"}'
+2023-12-17 19:22:06,069 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:22:06] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:28:01,638 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:28:01,638 - root - INFO - Request Method: POST
+2023-12-17 19:28:01,639 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:28:01,639 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"139880"}'
+2023-12-17 19:28:02,417 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:28:02] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:33:56,461 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:33:56,461 - root - INFO - Request Method: POST
+2023-12-17 19:33:56,461 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:33:56,461 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"238847"}'
+2023-12-17 19:33:57,189 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:33:57] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:33:57,531 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:33:57,531 - root - INFO - Request Method: POST
+2023-12-17 19:33:57,532 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:33:57,532 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"734116"}'
+2023-12-17 19:33:58,188 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:33:58] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 19:34:06,351 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 19:34:06,351 - root - INFO - Request Method: POST
+2023-12-17 19:34:06,351 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 19:34:06,352 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"475883"}'
+2023-12-17 19:34:07,147 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 19:34:07] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:11:29,656 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:11:29,656 - root - INFO - Request Method: POST
+2023-12-17 20:11:29,656 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:11:29,656 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"662779"}'
+2023-12-17 20:11:30,640 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:11:30] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:12:18,395 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:12:18,395 - root - INFO - Request Method: POST
+2023-12-17 20:12:18,395 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:12:18,395 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"334805"}'
+2023-12-17 20:12:19,167 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:12:19] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:12:41,813 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:12:41,814 - root - INFO - Request Method: POST
+2023-12-17 20:12:41,814 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:12:41,814 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"713340"}'
+2023-12-17 20:12:42,706 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:12:42] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:23:37,613 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:23:37,613 - root - INFO - Request Method: POST
+2023-12-17 20:23:37,613 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:23:37,613 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"915293"}'
+2023-12-17 20:23:38,402 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:23:38] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:23:53,256 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:23:53,256 - root - INFO - Request Method: POST
+2023-12-17 20:23:53,256 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:23:53,257 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"168478"}'
+2023-12-17 20:23:54,019 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:23:54] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:24:27,138 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:24:27,138 - root - INFO - Request Method: POST
+2023-12-17 20:24:27,138 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:24:27,138 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"621540"}'
+2023-12-17 20:24:27,807 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:24:27] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:25:01,292 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:25:01,292 - root - INFO - Request Method: POST
+2023-12-17 20:25:01,292 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:25:01,292 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"336358"}'
+2023-12-17 20:25:01,984 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:25:01] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:26:39,085 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:26:39,085 - root - INFO - Request Method: POST
+2023-12-17 20:26:39,086 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:26:39,086 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"690021"}'
+2023-12-17 20:26:39,782 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:26:39] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:27:03,251 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:27:03,251 - root - INFO - Request Method: POST
+2023-12-17 20:27:03,251 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:27:03,251 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"917594"}'
+2023-12-17 20:27:04,062 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:27:04] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:32:41,894 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 50
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:32:41,895 - root - INFO - Request Method: POST
+2023-12-17 20:32:41,895 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 20:32:41,895 - root - INFO - Request Data: b'{"email":"vineelakv1710@gmail.com","otp":"222657"}'
+2023-12-17 20:32:42,778 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:32:42] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 20:33:45,153 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 191
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 20:33:45,153 - root - INFO - Request Method: POST
+2023-12-17 20:33:45,153 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 20:33:45,154 - root - INFO - Request Data: b'{"username":"vineelakv1710@gmail.com","pass":"V","firstName":"vineela kv","lastName":"vineela kv","phone":"","organization":"Transportation","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 20:33:45,167 - root - INFO - firstname is: vineela kv, lastname: vineela kv, phone: , organization: Transportation
+2023-12-17 20:33:45,167 - root - INFO - , street: , city: , state: , zipcode: 
+2023-12-17 20:33:45,167 - root - INFO - username in signup : vineelakv1710@gmail.com
+2023-12-17 20:33:45,167 - root - INFO - password fetched from data: V
+2023-12-17 20:33:45,169 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 20:33:45] "POST /signup HTTP/1.1" 200 -
+2023-12-17 21:07:45,962 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 50
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:07:45,963 - root - INFO - Request Method: POST
+2023-12-17 21:07:45,963 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:07:45,963 - root - INFO - Request Data: b'{"email":"vineelakv1710@gmail.com","otp":"383220"}'
+2023-12-17 21:07:47,037 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:07:47] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:08:38,796 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:08:38,796 - root - INFO - Request Method: POST
+2023-12-17 21:08:38,796 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:08:38,796 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"835615"}'
+2023-12-17 21:08:39,584 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:08:39] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:10:16,495 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:10:16,495 - root - INFO - Request Method: POST
+2023-12-17 21:10:16,495 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:10:16,495 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"364788"}'
+2023-12-17 21:10:17,307 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:10:17] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:10:49,810 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:10:49,810 - root - INFO - Request Method: POST
+2023-12-17 21:10:49,810 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:10:49,810 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"877484"}'
+2023-12-17 21:10:50,532 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:10:50] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:12:57,225 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:12:57,225 - root - INFO - Request Method: POST
+2023-12-17 21:12:57,225 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:12:57,226 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"656609"}'
+2023-12-17 21:12:58,082 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:12:58] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:13:23,488 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:13:23,488 - root - INFO - Request Method: POST
+2023-12-17 21:13:23,488 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:13:23,488 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"413307"}'
+2023-12-17 21:13:24,286 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:13:24] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:14:05,658 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:14:05,658 - root - INFO - Request Method: POST
+2023-12-17 21:14:05,658 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:14:05,658 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"569672"}'
+2023-12-17 21:14:06,360 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:14:06] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:16:45,559 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:16:45,559 - root - INFO - Request Method: POST
+2023-12-17 21:16:45,560 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:16:45,560 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"813893"}'
+2023-12-17 21:16:46,214 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:16:46] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:17:20,013 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:17:20,013 - root - INFO - Request Method: POST
+2023-12-17 21:17:20,013 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:17:20,013 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"580878"}'
+2023-12-17 21:17:21,212 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:17:21] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:18:22,510 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 192
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:18:22,510 - root - INFO - Request Method: POST
+2023-12-17 21:18:22,510 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 21:18:22,510 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 21:18:22,517 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:18:22] "POST /signup HTTP/1.1" 200 -
+2023-12-17 21:18:48,334 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:18:48,334 - root - INFO - Request Method: POST
+2023-12-17 21:18:48,334 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:18:48,334 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"680235"}'
+2023-12-17 21:18:49,222 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:18:49] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:20:46,662 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 21:20:46,662 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 21:20:51,266 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:20:51,267 - root - INFO - Request Method: POST
+2023-12-17 21:20:51,268 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 21:20:51,268 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"993447"}'
+2023-12-17 21:20:52,299 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:20:52] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 21:21:20,518 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 192
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 21:21:20,518 - root - INFO - Request Method: POST
+2023-12-17 21:21:20,519 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 21:21:20,519 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 21:21:20,524 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 21:21:20] "POST /signup HTTP/1.1" 200 -
+2023-12-17 22:33:46,392 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-17 22:33:46,392 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-17 22:34:40,873 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 22:34:40,874 - root - INFO - Request Method: POST
+2023-12-17 22:34:40,878 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 22:34:40,878 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"369479"}'
+2023-12-17 22:34:42,023 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 22:34:42] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 22:35:18,908 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 192
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 22:35:18,908 - root - INFO - Request Method: POST
+2023-12-17 22:35:18,909 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 22:35:18,909 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 22:35:18,919 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 22:35:18] "POST /signup HTTP/1.1" 200 -
+2023-12-17 22:38:11,188 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 22:38:11,189 - root - INFO - Request Method: POST
+2023-12-17 22:38:11,189 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 22:38:11,189 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"391480"}'
+2023-12-17 22:38:11,945 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 22:38:11] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 22:38:36,453 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 192
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 22:38:36,454 - root - INFO - Request Method: POST
+2023-12-17 22:38:36,454 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 22:38:36,454 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 22:38:36,458 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 22:38:36] "POST /signup HTTP/1.1" 200 -
+2023-12-17 22:38:40,812 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 57
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 22:38:40,812 - root - INFO - Request Method: POST
+2023-12-17 22:38:40,813 - root - INFO - Request URL: http://192.168.0.188:5000/sendverificationEmail
+2023-12-17 22:38:40,813 - root - INFO - Request Data: b'{"email":"kanamarlapudi.usedu1@gmail.com","otp":"952051"}'
+2023-12-17 22:38:41,564 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 22:38:41] "POST /sendverificationEmail HTTP/1.1" 200 -
+2023-12-17 22:39:00,851 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 192
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-17 22:39:00,851 - root - INFO - Request Method: POST
+2023-12-17 22:39:00,851 - root - INFO - Request URL: http://192.168.0.188:5000/signup
+2023-12-17 22:39:00,852 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","pass":"V","firstName":"","lastName":"","phone":"","organization":"Public Works and Engineering","street_address":"","city":"","state":"","zip":""}'
+2023-12-17 22:39:00,856 - werkzeug - INFO - 192.168.0.20 - - [17/Dec/2023 22:39:00] "POST /signup HTTP/1.1" 200 -
+2023-12-18 09:11:51,052 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2023-12-18 09:11:51,053 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-12-18 09:37:16,011 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 60
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 09:37:16,011 - root - INFO - Request Method: POST
+2023-12-18 09:37:16,026 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 09:37:16,026 - root - INFO - Request Data: b'{"username":"kanamarlapudi.usedu1@gmail.com","password":"V"}'
+2023-12-18 09:37:16,029 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-12-18 09:37:16,029 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:37:16] "POST /login HTTP/1.1" 200 -
+2023-12-18 09:37:16,089 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:30:34 GMT
+
+
+2023-12-18 09:37:16,089 - root - INFO - Request Method: GET
+2023-12-18 09:37:16,089 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-18 09:37:16,089 - root - INFO - Request Data: b''
+2023-12-18 09:37:16,089 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:30:34 GMT
+
+
+2023-12-18 09:37:16,105 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:37:16] "GET /protected HTTP/1.1" 200 -
+2023-12-18 09:45:58,930 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 60
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 09:45:58,933 - root - INFO - Request Method: POST
+2023-12-18 09:45:58,933 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 09:45:58,933 - root - INFO - Request Data: b'{"username":"Kanamarlapudi.usedu1@gmail.com","password":"V"}'
+2023-12-18 09:45:58,933 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'kanamarlapudi.usedu1@gmail.com'}>
+2023-12-18 09:45:58,942 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:45:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-12-18 09:46:09,674 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 60
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 09:46:09,674 - root - INFO - Request Method: POST
+2023-12-18 09:46:09,674 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 09:46:09,690 - root - INFO - Request Data: b'{"username":"Kanamarlapudi.usedu1@gmail.com","password":"V"}'
+2023-12-18 09:46:09,690 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'kanamarlapudi.usedu1@gmail.com'}>
+2023-12-18 09:46:09,690 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:46:09] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2023-12-18 09:46:17,467 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 42
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 09:46:17,467 - root - INFO - Request Method: POST
+2023-12-18 09:46:17,470 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 09:46:17,470 - root - INFO - Request Data: b'{"username":"V@gmail.com ","password":"V"}'
+2023-12-18 09:46:17,470 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'kanamarlapudi.usedu1@gmail.com'}>
+2023-12-18 09:46:17,475 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:46:17] "POST /login HTTP/1.1" 200 -
+2023-12-18 09:46:17,547 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:37:16 GMT
+
+
+2023-12-18 09:46:17,547 - root - INFO - Request Method: GET
+2023-12-18 09:46:17,551 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-18 09:46:17,551 - root - INFO - Request Data: b''
+2023-12-18 09:46:17,551 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:37:16 GMT
+
+
+2023-12-18 09:46:17,555 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:46:17] "GET /protected HTTP/1.1" 200 -
+2023-12-18 09:52:14,528 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 09:52:14,528 - root - INFO - Request Method: POST
+2023-12-18 09:52:14,528 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 09:52:14,528 - root - INFO - Request Data: b'{"username":"V@gmail.com","password":"V"}'
+2023-12-18 09:52:14,528 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com '}>
+2023-12-18 09:52:14,528 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:52:14] "POST /login HTTP/1.1" 200 -
+2023-12-18 09:52:14,594 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:46:17 GMT
+
+
+2023-12-18 09:52:14,598 - root - INFO - Request Method: GET
+2023-12-18 09:52:14,598 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-18 09:52:14,598 - root - INFO - Request Data: b''
+2023-12-18 09:52:14,598 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:46:17 GMT
+
+
+2023-12-18 09:52:14,602 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:52:14] "GET /protected HTTP/1.1" 200 -
+2023-12-18 09:52:41,769 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 09:52:41,769 - root - INFO - Request Method: POST
+2023-12-18 09:52:41,769 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 09:52:41,769 - root - INFO - Request Data: b'{"username":"V@gmail.com","password":"V"}'
+2023-12-18 09:52:41,769 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com'}>
+2023-12-18 09:52:41,780 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:52:41] "POST /login HTTP/1.1" 200 -
+2023-12-18 09:52:41,829 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:52:14 GMT
+
+
+2023-12-18 09:52:41,829 - root - INFO - Request Method: GET
+2023-12-18 09:52:41,829 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-18 09:52:41,829 - root - INFO - Request Data: b''
+2023-12-18 09:52:41,829 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:52:14 GMT
+
+
+2023-12-18 09:52:41,835 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:52:41] "GET /protected HTTP/1.1" 200 -
+2023-12-18 09:54:47,150 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 09:54:47,150 - root - INFO - Request Method: POST
+2023-12-18 09:54:47,150 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 09:54:47,150 - root - INFO - Request Data: b'{"username":"V@gmail.com","password":"V"}'
+2023-12-18 09:54:47,150 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com'}>
+2023-12-18 09:54:47,160 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:54:47] "POST /login HTTP/1.1" 200 -
+2023-12-18 09:54:47,217 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:52:41 GMT
+
+
+2023-12-18 09:54:47,218 - root - INFO - Request Method: GET
+2023-12-18 09:54:47,218 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-18 09:54:47,218 - root - INFO - Request Data: b''
+2023-12-18 09:54:47,218 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:52:41 GMT
+
+
+2023-12-18 09:54:47,223 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 09:54:47] "GET /protected HTTP/1.1" 200 -
+2023-12-18 10:18:05,972 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 45
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:18:05,986 - root - INFO - Request Method: POST
+2023-12-18 10:18:05,988 - root - INFO - Request URL: http://192.168.0.188:5000/add_post
+2023-12-18 10:18:05,988 - root - INFO - Request Data: b'{"text":"Hi","filename":null,"filetype":null}'
+2023-12-18 10:18:06,028 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:18:06] "POST /add_post HTTP/1.1" 200 -
+2023-12-18 10:19:02,108 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 45
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:19:02,108 - root - INFO - Request Method: POST
+2023-12-18 10:19:02,108 - root - INFO - Request URL: http://192.168.0.188:5000/add_post
+2023-12-18 10:19:02,108 - root - INFO - Request Data: b'{"text":"Hi","filename":null,"filetype":null}'
+2023-12-18 10:19:02,125 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:19:02] "POST /add_post HTTP/1.1" 200 -
+2023-12-18 10:19:28,356 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 45
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:19:28,356 - root - INFO - Request Method: POST
+2023-12-18 10:19:28,356 - root - INFO - Request URL: http://192.168.0.188:5000/add_post
+2023-12-18 10:19:28,356 - root - INFO - Request Data: b'{"text":"Hi","filename":null,"filetype":null}'
+2023-12-18 10:19:28,375 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:19:28] "POST /add_post HTTP/1.1" 200 -
+2023-12-18 10:26:06,186 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:26:06,186 - root - INFO - Request Method: POST
+2023-12-18 10:26:06,186 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-18 10:26:06,186 - root - INFO - Request Data: b''
+2023-12-18 10:26:06,194 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:26:06,194 - root - INFO - Request Method: POST
+2023-12-18 10:26:06,194 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-18 10:26:06,194 - root - INFO - Request Data: b''
+2023-12-18 10:26:06,203 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:26:06] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-18 10:26:06,926 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:26:06] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-18 10:26:08,158 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:26:08,158 - root - INFO - Request Method: POST
+2023-12-18 10:26:08,158 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-18 10:26:08,158 - root - INFO - Request Data: b''
+2023-12-18 10:26:08,168 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:26:08] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-18 10:26:08,408 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:26:08,408 - root - INFO - Request Method: POST
+2023-12-18 10:26:08,408 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-18 10:26:08,408 - root - INFO - Request Data: b''
+2023-12-18 10:26:08,424 - main - ERROR - Exception on /displayrequests [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 121, in displayrequests
+    requests = handledata.get_requests(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 122, in get_requests
+    return requests
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'requests' where it is not associated with a value
+2023-12-18 10:26:08,557 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:26:08] "[35m[1mPOST /displayrequests HTTP/1.1[0m" 500 -
+2023-12-18 10:26:48,664 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:26:48,664 - root - INFO - Request Method: POST
+2023-12-18 10:26:48,664 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-18 10:26:48,664 - root - INFO - Request Data: b''
+2023-12-18 10:26:48,673 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:26:48] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-18 10:26:48,762 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:26:48,762 - root - INFO - Request Method: POST
+2023-12-18 10:26:48,762 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-18 10:26:48,762 - root - INFO - Request Data: b''
+2023-12-18 10:26:48,776 - main - ERROR - Exception on /displayrequests [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 121, in displayrequests
+    requests = handledata.get_requests(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 122, in get_requests
+    return requests
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'requests' where it is not associated with a value
+2023-12-18 10:26:48,782 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:26:48] "[35m[1mPOST /displayrequests HTTP/1.1[0m" 500 -
+2023-12-18 10:27:14,068 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:27:14,068 - root - INFO - Request Method: POST
+2023-12-18 10:27:14,068 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 10:27:14,068 - root - INFO - Request Data: b'{"username":"V@gmail.com","password":"V"}'
+2023-12-18 10:27:14,068 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com'}>
+2023-12-18 10:27:14,078 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:27:14] "POST /login HTTP/1.1" 200 -
+2023-12-18 10:27:14,149 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:54:47 GMT
+
+
+2023-12-18 10:27:14,149 - root - INFO - Request Method: GET
+2023-12-18 10:27:14,149 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-18 10:27:14,149 - root - INFO - Request Data: b''
+2023-12-18 10:27:14,149 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 15:54:47 GMT
+
+
+2023-12-18 10:27:14,162 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:27:14] "GET /protected HTTP/1.1" 200 -
+2023-12-18 10:27:57,522 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:27:57,522 - root - INFO - Request Method: POST
+2023-12-18 10:27:57,522 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-18 10:27:57,522 - root - INFO - Request Data: b''
+2023-12-18 10:27:57,538 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:27:57] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-18 10:27:57,702 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:27:57,702 - root - INFO - Request Method: POST
+2023-12-18 10:27:57,702 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-18 10:27:57,702 - root - INFO - Request Data: b''
+2023-12-18 10:27:57,702 - main - ERROR - Exception on /displayrequests [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 121, in displayrequests
+    requests = handledata.get_requests(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 122, in get_requests
+    return requests
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'requests' where it is not associated with a value
+2023-12-18 10:27:57,709 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:27:57] "[35m[1mPOST /displayrequests HTTP/1.1[0m" 500 -
+2023-12-18 10:28:41,017 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:28:41,017 - root - INFO - Request Method: POST
+2023-12-18 10:28:41,017 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-18 10:28:41,017 - root - INFO - Request Data: b''
+2023-12-18 10:28:41,017 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:28:41] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-18 10:28:41,102 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:28:41,110 - root - INFO - Request Method: POST
+2023-12-18 10:28:41,110 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-18 10:28:41,110 - root - INFO - Request Data: b''
+2023-12-18 10:28:41,110 - main - ERROR - Exception on /displayrequests [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 121, in displayrequests
+    requests = handledata.get_requests(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 122, in get_requests
+    return requests
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'requests' where it is not associated with a value
+2023-12-18 10:28:41,121 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:28:41] "[35m[1mPOST /displayrequests HTTP/1.1[0m" 500 -
+2023-12-18 10:32:13,454 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:13,454 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:13,454 - root - INFO - Request Method: POST
+2023-12-18 10:32:13,454 - root - INFO - Request Method: POST
+2023-12-18 10:32:13,454 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:32:13,454 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:32:13,454 - root - INFO - Request Data: b'{"username":"J@gmail.com"}'
+2023-12-18 10:32:13,454 - root - INFO - Request Data: b'{"username":"J@gmail.com"}'
+2023-12-18 10:32:13,471 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:13] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:32:13,474 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:13] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:32:35,596 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:35,596 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:35,596 - root - INFO - Request Method: POST
+2023-12-18 10:32:35,596 - root - INFO - Request Method: POST
+2023-12-18 10:32:35,596 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:32:35,596 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:32:35,596 - root - INFO - Request Data: b'{"username":"J@gmail.com"}'
+2023-12-18 10:32:35,596 - root - INFO - Request Data: b'{"username":"J@gmail.com"}'
+2023-12-18 10:32:35,615 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:35] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:32:35,618 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:35] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:32:44,918 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 28
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:44,918 - root - INFO - Request Method: POST
+2023-12-18 10:32:44,918 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:32:44,918 - root - INFO - Request Data: b'{"username":"Kvs@gmail.com"}'
+2023-12-18 10:32:44,918 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 28
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:44,918 - root - INFO - Request Method: POST
+2023-12-18 10:32:44,918 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:32:44,918 - root - INFO - Request Data: b'{"username":"Kvs@gmail.com"}'
+2023-12-18 10:32:44,940 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:44] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:32:44,944 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:44] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:32:46,359 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 28
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:46,359 - root - INFO - Request Method: POST
+2023-12-18 10:32:46,359 - root - INFO - Request URL: http://192.168.0.188:5000/requestfriend
+2023-12-18 10:32:46,359 - root - INFO - Request Data: b'{"username":"Kvs@gmail.com"}'
+2023-12-18 10:32:46,369 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:46] "POST /requestfriend HTTP/1.1" 200 -
+2023-12-18 10:32:48,408 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:48,408 - root - INFO - Request Method: POST
+2023-12-18 10:32:48,408 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:32:48,408 - root - INFO - Request Data: b'{"username":"S@gmail.com"}'
+2023-12-18 10:32:48,408 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:32:48,408 - root - INFO - Request Method: POST
+2023-12-18 10:32:48,408 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:32:48,408 - root - INFO - Request Data: b'{"username":"S@gmail.com"}'
+2023-12-18 10:32:48,408 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:48] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:32:48,425 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:32:48] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:33:00,678 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:00,678 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:00,678 - root - INFO - Request Method: POST
+2023-12-18 10:33:00,678 - root - INFO - Request Method: POST
+2023-12-18 10:33:00,678 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:33:00,678 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:33:00,678 - root - INFO - Request Data: b'{"username":"S@gmail.com"}'
+2023-12-18 10:33:00,678 - root - INFO - Request Data: b'{"username":"S@gmail.com"}'
+2023-12-18 10:33:00,694 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:00] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:33:00,694 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:00] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:33:03,619 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 28
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:03,619 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 28
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:03,619 - root - INFO - Request Method: POST
+2023-12-18 10:33:03,619 - root - INFO - Request Method: POST
+2023-12-18 10:33:03,619 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:33:03,619 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:33:03,619 - root - INFO - Request Data: b'{"username":"Kvs@gmail.com"}'
+2023-12-18 10:33:03,619 - root - INFO - Request Data: b'{"username":"Kvs@gmail.com"}'
+2023-12-18 10:33:03,627 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:03] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:33:03,627 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:03] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:33:05,598 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:05,598 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:05,598 - root - INFO - Request Method: POST
+2023-12-18 10:33:05,598 - root - INFO - Request Method: POST
+2023-12-18 10:33:05,598 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:33:05,598 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:33:05,598 - root - INFO - Request Data: b'{"username":"J@gmail.com"}'
+2023-12-18 10:33:05,598 - root - INFO - Request Data: b'{"username":"J@gmail.com"}'
+2023-12-18 10:33:05,609 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:05] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:33:05,626 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:05] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:33:07,754 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 30
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:07,754 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 30
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:07,754 - root - INFO - Request Method: POST
+2023-12-18 10:33:07,754 - root - INFO - Request Method: POST
+2023-12-18 10:33:07,754 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:33:07,754 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:33:07,754 - root - INFO - Request Data: b'{"username":"Hafsa@gmail.com"}'
+2023-12-18 10:33:07,754 - root - INFO - Request Data: b'{"username":"Hafsa@gmail.com"}'
+2023-12-18 10:33:07,772 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:07] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:33:07,775 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:07] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:33:15,350 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 18
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:15,350 - root - INFO - Request Method: POST
+2023-12-18 10:33:15,350 - root - INFO - Request URL: http://192.168.0.188:5000/search_unames
+2023-12-18 10:33:15,350 - root - INFO - Request Data: b'{"searchText":"A"}'
+2023-12-18 10:33:15,350 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:15] "POST /search_unames HTTP/1.1" 200 -
+2023-12-18 10:33:15,445 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:15,445 - root - INFO - Request Method: POST
+2023-12-18 10:33:15,445 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-18 10:33:15,445 - root - INFO - Request Data: b''
+2023-12-18 10:33:15,445 - main - ERROR - Exception on /displayrequests [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 121, in displayrequests
+    requests = handledata.get_requests(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 122, in get_requests
+    return requests
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'requests' where it is not associated with a value
+2023-12-18 10:33:15,454 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:15] "[35m[1mPOST /displayrequests HTTP/1.1[0m" 500 -
+2023-12-18 10:33:17,215 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:17,215 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:33:17,215 - root - INFO - Request Method: POST
+2023-12-18 10:33:17,215 - root - INFO - Request Method: POST
+2023-12-18 10:33:17,215 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:33:17,215 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:33:17,215 - root - INFO - Request Data: b'{"username":"A@gmail.com"}'
+2023-12-18 10:33:17,215 - root - INFO - Request Data: b'{"username":"A@gmail.com"}'
+2023-12-18 10:33:17,227 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:17] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:33:17,231 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:33:17] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:34:18,203 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:34:18,203 - root - INFO - Request Method: POST
+2023-12-18 10:34:18,203 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-18 10:34:18,203 - root - INFO - Request Data: b''
+2023-12-18 10:34:18,213 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:34:18] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-18 10:34:18,286 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:34:18,299 - root - INFO - Request Method: POST
+2023-12-18 10:34:18,299 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-18 10:34:18,299 - root - INFO - Request Data: b''
+2023-12-18 10:34:18,300 - main - ERROR - Exception on /displayrequests [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 121, in displayrequests
+    requests = handledata.get_requests(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 122, in get_requests
+    return requests
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'requests' where it is not associated with a value
+2023-12-18 10:34:18,303 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:34:18] "[35m[1mPOST /displayrequests HTTP/1.1[0m" 500 -
+2023-12-18 10:34:19,831 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:34:19,831 - root - INFO - Request Method: POST
+2023-12-18 10:34:19,831 - root - INFO - Request URL: http://192.168.0.188:5000/friendstatus
+2023-12-18 10:34:19,831 - root - INFO - Request Data: b'{"username":"S@gmail.com"}'
+2023-12-18 10:34:19,831 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 26
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:34:19,831 - root - INFO - Request Method: POST
+2023-12-18 10:34:19,846 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_data
+2023-12-18 10:34:19,846 - root - INFO - Request Data: b'{"username":"S@gmail.com"}'
+2023-12-18 10:34:19,848 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:34:19] "POST /friendstatus HTTP/1.1" 200 -
+2023-12-18 10:34:19,856 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:34:19] "POST /get_user_data HTTP/1.1" 200 -
+2023-12-18 10:34:42,426 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:34:42,426 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:34:42,426 - root - INFO - Request Method: POST
+2023-12-18 10:34:42,426 - root - INFO - Request Method: POST
+2023-12-18 10:34:42,426 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-18 10:34:42,426 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-18 10:34:42,426 - root - INFO - Request Data: b''
+2023-12-18 10:34:42,426 - root - INFO - Request Data: b''
+2023-12-18 10:34:42,445 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:34:42] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-18 10:34:42,834 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:34:42] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-18 10:34:59,681 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:34:59,681 - root - INFO - Request Method: POST
+2023-12-18 10:34:59,681 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-18 10:34:59,682 - root - INFO - Request Data: b''
+2023-12-18 10:34:59,682 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:34:59,682 - root - INFO - Request Method: POST
+2023-12-18 10:34:59,682 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-18 10:34:59,682 - root - INFO - Request Data: b''
+2023-12-18 10:34:59,688 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:34:59] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-18 10:35:00,096 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:35:00] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-18 10:35:36,669 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:35:36,669 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:35:36,669 - root - INFO - Request Method: POST
+2023-12-18 10:35:36,669 - root - INFO - Request Method: POST
+2023-12-18 10:35:36,669 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-18 10:35:36,669 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-18 10:35:36,669 - root - INFO - Request Data: b''
+2023-12-18 10:35:36,669 - root - INFO - Request Data: b''
+2023-12-18 10:35:36,690 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:35:36] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-18 10:35:37,105 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:35:37] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-18 10:35:37,704 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:35:37,704 - root - INFO - Request Method: POST
+2023-12-18 10:35:37,704 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:35:37,704 - root - INFO - Request URL: http://192.168.0.188:5000/get_user_posts
+2023-12-18 10:35:37,704 - root - INFO - Request Method: POST
+2023-12-18 10:35:37,704 - root - INFO - Request Data: b''
+2023-12-18 10:35:37,704 - root - INFO - Request URL: http://192.168.0.188:5000/get_userprofile_data
+2023-12-18 10:35:37,704 - root - INFO - Request Data: b''
+2023-12-18 10:35:37,704 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:35:37] "POST /get_userprofile_data HTTP/1.1" 200 -
+2023-12-18 10:35:38,112 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:35:38] "POST /get_user_posts HTTP/1.1" 200 -
+2023-12-18 10:36:04,840 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Fri, 08 Dec 2023 15:31:15 GMT
+
+
+2023-12-18 10:36:04,840 - root - INFO - Request Method: GET
+2023-12-18 10:36:04,840 - root - INFO - Request URL: http://192.168.0.188:5000/logout
+2023-12-18 10:36:04,840 - root - INFO - Request Data: b''
+2023-12-18 10:36:04,840 - root - INFO - loggingout Data: <Request 'http://192.168.0.188:5000/logout' [GET]>
+2023-12-18 10:36:04,860 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:36:04] "GET /logout HTTP/1.1" 200 -
+2023-12-18 10:36:08,895 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:36:08,895 - root - INFO - Request Method: POST
+2023-12-18 10:36:08,911 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 10:36:08,911 - root - INFO - Request Data: b'{"username":"V@gmail.com","password":"V"}'
+2023-12-18 10:36:08,911 - root - INFO - session Data: <FileSystemSession {'_permanent': True}>
+2023-12-18 10:36:08,916 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:36:08] "POST /login HTTP/1.1" 200 -
+2023-12-18 10:36:08,990 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 16:27:14 GMT
+
+
+2023-12-18 10:36:08,990 - root - INFO - Request Method: GET
+2023-12-18 10:36:08,990 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-18 10:36:08,990 - root - INFO - Request Data: b''
+2023-12-18 10:36:08,990 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 16:27:14 GMT
+
+
+2023-12-18 10:36:08,992 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:36:08] "GET /protected HTTP/1.1" 200 -
+2023-12-18 10:36:12,175 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:36:12,175 - root - INFO - Request Method: POST
+2023-12-18 10:36:12,175 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-18 10:36:12,175 - root - INFO - Request Data: b''
+2023-12-18 10:36:12,193 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:36:12] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-18 10:36:12,342 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:36:12,342 - root - INFO - Request Method: POST
+2023-12-18 10:36:12,342 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-18 10:36:12,342 - root - INFO - Request Data: b''
+2023-12-18 10:36:12,342 - main - ERROR - Exception on /displayrequests [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 121, in displayrequests
+    requests = handledata.get_requests(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 122, in get_requests
+    return requests
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'requests' where it is not associated with a value
+2023-12-18 10:36:12,356 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:36:12] "[35m[1mPOST /displayrequests HTTP/1.1[0m" 500 -
+2023-12-18 10:56:44,954 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 41
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:56:44,954 - root - INFO - Request Method: POST
+2023-12-18 10:56:44,954 - root - INFO - Request URL: http://192.168.0.188:5000/login
+2023-12-18 10:56:44,954 - root - INFO - Request Data: b'{"username":"V@gmail.com","password":"V"}'
+2023-12-18 10:56:44,954 - root - INFO - session Data: <FileSystemSession {'_permanent': True, 'user': 'V@gmail.com'}>
+2023-12-18 10:56:44,969 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:56:44] "POST /login HTTP/1.1" 200 -
+2023-12-18 10:56:45,023 - root - INFO - Request Headers: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 16:36:08 GMT
+
+
+2023-12-18 10:56:45,023 - root - INFO - Request Method: GET
+2023-12-18 10:56:45,023 - root - INFO - Request URL: http://192.168.0.188:5000/protected
+2023-12-18 10:56:45,023 - root - INFO - Request Data: b''
+2023-12-18 10:56:45,023 - root - INFO - Request Headers in protected: Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+If-Modified-Since: Mon, 18 Dec 2023 16:36:08 GMT
+
+
+2023-12-18 10:56:45,025 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:56:45] "GET /protected HTTP/1.1" 200 -
+2023-12-18 10:56:46,631 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:56:46,631 - root - INFO - Request Method: POST
+2023-12-18 10:56:46,631 - root - INFO - Request URL: http://192.168.0.188:5000/suggest_unames
+2023-12-18 10:56:46,631 - root - INFO - Request Data: b''
+2023-12-18 10:56:46,631 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:56:46] "POST /suggest_unames HTTP/1.1" 200 -
+2023-12-18 10:56:46,728 - root - INFO - Request Headers: Content-Length: 0
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 10:56:46,728 - root - INFO - Request Method: POST
+2023-12-18 10:56:46,728 - root - INFO - Request URL: http://192.168.0.188:5000/displayrequests
+2023-12-18 10:56:46,728 - root - INFO - Request Data: b''
+2023-12-18 10:56:46,728 - main - ERROR - Exception on /displayrequests [POST]
+Traceback (most recent call last):
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\.venv\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\main.py", line 121, in displayrequests
+    requests = handledata.get_requests(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vineela\Desktop\Truche\Trics_server\handledata.py", line 122, in get_requests
+    return requests
+           ^^^^^^^^
+UnboundLocalError: cannot access local variable 'requests' where it is not associated with a value
+2023-12-18 10:56:46,728 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 10:56:46] "[35m[1mPOST /displayrequests HTTP/1.1[0m" 500 -
+2023-12-18 11:03:27,937 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 97
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 11:03:27,937 - root - INFO - Request Method: POST
+2023-12-18 11:03:27,937 - root - INFO - Request URL: http://192.168.0.188:5000/sendhelprequest
+2023-12-18 11:03:27,937 - root - INFO - Request Data: b'{"selectedNeed":"2","address":"1017 Brooks Street East, Norman, Oklahoma, United States - 73071"}'
+2023-12-18 11:03:27,943 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 11:03:27] "[33mPOST /sendhelprequest HTTP/1.1[0m" 404 -
+2023-12-18 11:04:06,192 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 97
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 11:04:06,192 - root - INFO - Request Method: POST
+2023-12-18 11:04:06,192 - root - INFO - Request URL: http://192.168.0.188:5000/sendhelprequest
+2023-12-18 11:04:06,192 - root - INFO - Request Data: b'{"selectedNeed":"2","address":"1017 Brooks Street East, Norman, Oklahoma, United States - 73071"}'
+2023-12-18 11:04:06,209 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 11:04:06] "[33mPOST /sendhelprequest HTTP/1.1[0m" 404 -
+2023-12-18 11:04:13,129 - root - INFO - Request Headers: Content-Type: application/json
+Content-Length: 97
+Host: 192.168.0.188:5000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Cookie: session=76653048-d7bf-4a19-9b37-7bb07cf101e3
+User-Agent: okhttp/4.9.2
+
+
+2023-12-18 11:04:13,129 - root - INFO - Request Method: POST
+2023-12-18 11:04:13,129 - root - INFO - Request URL: http://192.168.0.188:5000/sendhelprequest
+2023-12-18 11:04:13,129 - root - INFO - Request Data: b'{"selectedNeed":"2","address":"1017 Brooks Street East, Norman, Oklahoma, United States - 73071"}'
+2023-12-18 11:04:13,129 - werkzeug - INFO - 192.168.0.20 - - [18/Dec/2023 11:04:13] "[33mPOST /sendhelprequest HTTP/1.1[0m" 404 -

@@ -4,6 +4,9 @@ from flask import Flask, request, jsonify, session
 from flask_cors import CORS
 import handledata
 import sqlite3
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 ## sessions code here
 from flask_session import Session  # Import Flask-Session
@@ -18,7 +21,7 @@ Session(app)
 
 # Define the database initialize function
 def initialize_database():
-    conn = sqlite3.connect('../Data/user_data.db')
+    conn = sqlite3.connect('../data/user_data.db')
     cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS users (
@@ -278,6 +281,55 @@ def signup():
     # You can now access the signup data in the 'data' variable
     # Implement your signup logic here
     return jsonify({"message": "Signup successful"})
+
+@app.route('/sendhelprequest', methods=['POST'])
+def send_help_req():
+    if 'user' in session:
+        username = session['user']
+        helptype = request.json.get('selectedNeed')
+        address = request.json.get('address')
+        return jsonify(status), 200
+    else:
+        return jsonify({"message": "Failed"}), 401
+
+
+@app.route('/sendverificationEmail', methods=['POST'])
+def send_verification_email():
+    email = request.json.get('email')
+    otp = request.json.get('otp')
+
+    if not email:
+        return jsonify({'error': 'Email is required'}), 400
+
+    # Email configuration
+    sender_email = 'trucheapp@gmail.com'  # Replace with your email
+    sender_password = 'jdtp hspk rbrh hicr'  # Replace with your email password
+    subject = 'Verification Code for Signup'
+    message = f'Your verification code is: {otp}'
+
+    # Send the email
+    try:
+        send_email(sender_email, sender_password, email, subject, message)
+        return jsonify({'message': 'Verification email sent successfully'}), 200
+    except Exception as e:
+        print(f'Error sending email: {e}')
+        return jsonify({'error': 'Internal server error'}), 500
+
+def send_email(sender_email, sender_password, to_email, subject, message):
+    # Setup the MIME
+    msg = MIMEMultipart()
+    msg['From'] = sender_email
+    msg['To'] = to_email
+    msg['Subject'] = subject
+
+    # Attach the message
+    msg.attach(MIMEText(message, 'plain'))
+
+    # Connect to the SMTP server and send the email
+    with smtplib.SMTP('smtp.gmail.com', 587) as server:
+        server.starttls()
+        server.login(sender_email, sender_password)
+        server.sendmail(sender_email, to_email, msg.as_string())
 
 if __name__ == '__main__':
     print("started app")
